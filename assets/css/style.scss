@@ -168,7 +168,7 @@ body {
 // START:: LARGE SCREENS NAVBAR STYLES
 nav {
   padding: 0 10px;
-  border-bottom: 2px solid $deepRed;
+  border-bottom: 2px solid $mainColor;
 
   // START:: NAV LOGO STYLE
   .site-logo {
@@ -195,46 +195,10 @@ nav {
   }
   // END:: NAV LINKS STYLE
 
-  // START:: CART BUTTON STYLES
-  .cart_btn {
-    @include flexCenterAlignment();
-    flex-direction: column;
-    font-weight: 700;
-    a {
-      text-decoration: none;
-      position: relative;
-      span {
-        position: absolute;
-        top: -5px;
-        right: -8px;
-      }
-      svg {
-        color: $deepBlue;
-      }
-    }
-  }
-  // END:: CART BUTTON STYLES
-
-  .lang_btn,
-  .account_link,
-  .login_btn {
-    a {
-      @include flexCenterAlignment();
-      flex-direction: column;
-      text-decoration: none;
-      color: $deepBlue;
-      font-weight: 700;
-      &:hover {
-        color: $deepRed;
-      }
-    }
-  }
-
   .lang_btn {
-    span {
-      &.ar {
-        display: none;
-      }
+    img {
+      width: 35px;
+      height: 35px;
     }
   }
 
@@ -245,7 +209,7 @@ nav {
     background-color: transparent;
     font-size: 25px;
     svg {
-      color: $midRed;
+      color: $secondaryColor;
     }
   }
   // END:: MENU TOGGLER BTN STYLE
@@ -834,7 +798,7 @@ nav {
           min-height: 150px;
           max-height: 150px;
           filter: grayscale(90%);
-          @include transitioning();
+          @include transitioning(0.4s);
           &:hover {
             filter: grayscale(0%);
           }
@@ -876,7 +840,7 @@ nav {
         width: 100%;
         min-height: 150px;
         max-height: 150px;
-        @include transitioning();
+        @include transitioning(0.4s);
         &:hover {
           transform: scale(1.1);
         }
@@ -924,7 +888,7 @@ nav {
             .img_wraper {
               img {
                 transform: scale(1.1);
-                @include transitioning();
+                @include transitioning(0.4s);
               }
             }
           }
@@ -978,7 +942,7 @@ nav {
         border-radius: 50%;
         overflow: hidden;
         font-size: 30px;
-        @include transitioning();
+        @include transitioning(0.4s);
       }
 
       .owl-prev {
@@ -1056,7 +1020,7 @@ nav {
         .img_wraper {
           img {
             transform: scale(1.1);
-            @include transitioning();
+            @include transitioning(0.4s);
           }
         }
       }
@@ -1236,7 +1200,7 @@ nav {
         border-radius: 50%;
         overflow: hidden;
         font-size: 30px;
-        @include transitioning();
+        @include transitioning(0.4s);
       }
 
       .owl-prev {
@@ -1374,7 +1338,7 @@ nav {
             svg {
               color: $deepRed;
               margin-inline-end: 10px;
-              @include transitioning();
+              @include transitioning(0.4s);
             }
 
             &[aria-expanded=true] {
@@ -1553,7 +1517,7 @@ nav {
         border-radius: 50%;
         overflow: hidden;
         font-size: 30px;
-        @include transitioning();
+        @include transitioning(0.4s);
       }
 
       .owl-prev {
@@ -1846,7 +1810,7 @@ nav {
         line-height: 25px;
         border-radius: 50%;
         overflow: hidden;
-        @include transitioning();
+        @include transitioning(0.4s);
         &:hover {
           transform: scale(1.1);
         }
@@ -1969,7 +1933,7 @@ nav {
         line-height: 25px;
         border-radius: 50%;
         overflow: hidden;
-        @include transitioning();
+        @include transitioning(0.4s);
         &:hover {
           transform: scale(1.1);
         }
@@ -2121,7 +2085,7 @@ nav {
         line-height: 25px;
         border-radius: 50%;
         overflow: hidden;
-        @include transitioning();
+        @include transitioning(0.4s);
         &:hover {
           transform: scale(1.1);
         }
@@ -2224,7 +2188,7 @@ nav {
         line-height: 25px;
         border-radius: 50%;
         overflow: hidden;
-        @include transitioning();
+        @include transitioning(0.4s);
         &:hover {
           transform: scale(1.1);
         }
@@ -2448,7 +2412,7 @@ nav {
       .back_link {
         text-decoration: none;
         color: $deepRed;
-        @include transitioning();
+        @include transitioning(0.4s);
         &:hover {
           color: $deepBlue;
         }
@@ -2834,7 +2798,7 @@ nav {
       max-width: 70px;
       min-height: 70px;
       max-height: 70px;
-      @include transitioning();
+      @include transitioning(0.4s);
       &:hover {
         transform: scale(1.3);
       }
@@ -2865,7 +2829,7 @@ nav {
       margin-bottom: 15px;
       svg {
         color: $midRed;
-        @include transitioning();
+        @include transitioning(0.4s);
       }
     }
 
@@ -3172,7 +3136,7 @@ footer {
         width: 100%;
         height: 2px;
         background-color: $lightRed;
-        @include transitioning();
+        @include transitioning(0.4s);
       }
       &:hover {
         color: $lightRed;
@@ -3215,7 +3179,7 @@ footer {
       li {
         display: inline-block;
         margin: 3px 5px;
-        @include transitioning();
+        @include transitioning(0.4s);
         a {
           opacity: 0.6;
           img {
@@ -3239,7 +3203,7 @@ footer {
         margin-inline: 10px;
         font-size: 20px;
         color: $white;
-        @include transitioning();
+        @include transitioning(0.4s);
         img {
           width: 50px;
           height: 50px;
@@ -3259,7 +3223,7 @@ footer {
       a {
         text-decoration: none;
         color: $lightOrange;
-        @include transitioning();
+        @include transitioning(0.4s);
       }
     }
   }

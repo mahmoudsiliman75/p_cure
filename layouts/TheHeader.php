@@ -99,9 +99,7 @@
     <!-- START:: LANG BUTTON -->  
     <span class="lang_btn mx-2">     
       <a href="#"> 
-        <i class="fas fa-globe-africa fa-lg"></i>
-        <span class="en">E</span> 
-        <span class="ar">ع</span> 
+        <img src="assets/media/icons/language.png">
       </a>
     </span>
     <!-- END:: LANG BUTTON -->
