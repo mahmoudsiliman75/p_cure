@@ -484,11 +484,21 @@ nav .menu_btn svg {
   position: relative;
 }
 
-.carousel .svg_wraper {
+.carousel .curve_wraper {
   width: 100%;
   position: absolute;
   bottom: 0;
   z-index: 1;
+}
+
+.carousel .curve_wraper .curve {
+  width: 100%;
+  height: 100px;
+}
+
+.carousel .carousel-indicators {
+  position: absolute;
+  bottom: 50px;
 }
 
 .carousel .carousel-indicators li {
@@ -501,7 +511,7 @@ nav .menu_btn svg {
 
 .carousel .carousel-indicators li.active {
   width: 40px;
-  background-color: #bb0808;
+  background-color: #07669C;
   border: none;
   border-radius: 30px;
 }
@@ -536,7 +546,7 @@ nav .menu_btn svg {
   width: 35px;
   height: 35px;
   margin: 30px;
-  background-color: #bb0808;
+  background-color: #07669C;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
