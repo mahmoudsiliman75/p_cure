@@ -1242,6 +1242,158 @@ nav .menu_btn svg {
   right: 65%;
 }
 
+.home_heightlights {
+  padding: 30px 0;
+  position: relative;
+  width: 100%;
+}
+
+.home_heightlights .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home_heightlights .header_wraper h2 {
+  padding: 8px 15px;
+  position: relative;
+  color: #07669C;
+}
+
+.home_heightlights .header_wraper h2::before, .home_heightlights .header_wraper h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #03A88A;
+}
+
+.home_heightlights .header_wraper h2::before {
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px 0 0 0;
+}
+
+.home_heightlights .header_wraper h2::after {
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.home_heightlights .header_wraper h2 span {
+  position: absolute;
+  display: bolck;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #03A88A;
+}
+
+.home_heightlights .header_wraper h2 span:first-child {
+  left: 0;
+  bottom: 0;
+  border-right: none;
+  border-top: none;
+  border-radius: 0 0 0 5px;
+}
+
+.home_heightlights .header_wraper h2 span:last-child {
+  right: 0;
+  bottom: 0;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+}
+
+.home_heightlights .row {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-block: 100px;
+}
+
+.home_heightlights .row .upper_svg_wraper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.home_heightlights .row .upper_svg_wraper img {
+  width: 100%;
+  height: 30px;
+}
+
+.home_heightlights .row .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-block: 20px;
+}
+
+.home_heightlights .row .lower_svg_wraper {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.home_heightlights .row .lower_svg_wraper img {
+  width: 100%;
+  height: 30px;
+}
+
+.home_heightlights .row .card {
+  background-color: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home_heightlights .row .card .icon_wraper img {
+  width: 120px;
+  height: 120px;
+}
+
+.home_heightlights .row .card .info_wraper {
+  text-align: start;
+}
+
+.home_heightlights .row .card .info_wraper h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+}
+
+.home_heightlights .row .card .info_wraper h5 {
+  color: #fff;
+}
+
 .services_sec {
   padding: 30px 0;
   background: url("../media/shapes/4.png");
@@ -1354,148 +1506,6 @@ nav .menu_btn svg {
   margin-top: 8px;
   color: #810000;
   display: none;
-}
-
-.home_heightlights {
-  padding: 30px 0;
-  position: relative;
-  width: 100%;
-}
-
-.home_heightlights .header_wraper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.home_heightlights .header_wraper h2 {
-  padding: 8px 15px;
-  position: relative;
-  color: #07669C;
-}
-
-.home_heightlights .header_wraper h2::before, .home_heightlights .header_wraper h2::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  display: block;
-  height: 15px;
-  width: 15px;
-  border: 2px solid #03A88A;
-}
-
-.home_heightlights .header_wraper h2::before {
-  left: 0;
-  border-right: none;
-  border-bottom: none;
-  border-radius: 5px 0 0 0;
-}
-
-.home_heightlights .header_wraper h2::after {
-  right: 0;
-  border-left: none;
-  border-bottom: none;
-  border-radius: 0 5px 0 0;
-}
-
-.home_heightlights .header_wraper h2 span {
-  position: absolute;
-  display: bolck;
-  width: 15px;
-  height: 15px;
-  border: 2px solid #03A88A;
-}
-
-.home_heightlights .header_wraper h2 span:first-child {
-  left: 0;
-  bottom: 0;
-  border-right: none;
-  border-top: none;
-  border-radius: 0 0 0 5px;
-}
-
-.home_heightlights .header_wraper h2 span:last-child {
-  right: 0;
-  bottom: 0;
-  border-left: none;
-  border-top: none;
-  border-radius: 0 0 5px 0;
-}
-
-.home_heightlights .row {
-  position: relative;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-block: 80px;
-}
-
-.home_heightlights .row .upper_svg_wraper {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.home_heightlights .row .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding-block: 20px;
-}
-
-.home_heightlights .row .lower_svg_wraper {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-}
-
-.home_heightlights .row .card {
-  background-color: transparent;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.home_heightlights .row .card .icon_wraper img {
-  width: 150px;
-  height: 150px;
-}
-
-.home_heightlights .row .card .info_wraper {
-  text-align: start;
-}
-
-.home_heightlights .row .card .info_wraper h2 {
-  font-weight: 700;
-  color: #fff;
-  font-size: 55px;
-}
-
-.home_heightlights .row .card .info_wraper h5 {
-  color: #fff;
 }
 
 .heightlights {

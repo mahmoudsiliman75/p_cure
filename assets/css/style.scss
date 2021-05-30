@@ -639,7 +639,85 @@ nav {
 }
 // END:: OPERATION SECTION STYLE
 
+// START:: HOME HEIGHLIGHTS SECTION STYLES
+.home_heightlights {
+  padding: $paddingAmount 0;
+  position: relative;
+  width: 100%;
 
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .row {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-block: 100px;
+
+    .upper_svg_wraper {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      transform: rotate(180deg);
+      img {
+        width: 100%;
+        height: 30px;
+      }
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding-block: 20px;
+    }
+
+    .lower_svg_wraper {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      img {
+        width: 100%;
+        height: 30px;
+      }
+    }
+
+    .card {
+      background-color: transparent;
+      border: none;
+      @include flexCenterAlignment();
+      flex-direction: row;
+      .icon_wraper {
+        img {
+          width: 120px;
+          height: 120px;
+        }
+      }
+  
+      .info_wraper {
+        text-align: start;
+        h2 {
+          font-weight: 700;
+          color: $white;
+          font-size: 50px;
+        }
+        h5 {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+// END:: HOME HEIGHLIGHTS SECTION STYLES
 
 
 
@@ -725,78 +803,6 @@ nav {
   }
 }
 // END:: OUR SERVICES SECTION STYLES
-
-// START:: HOME HEIGHLIGHTS SECTION STYLES
-.home_heightlights {
-  padding: $paddingAmount 0;
-  position: relative;
-  width: 100%;
-
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .row {
-    position: relative;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-block: 80px;
-
-    .upper_svg_wraper {
-      width: 100%;
-      position: absolute;
-      top: 0;
-      z-index: 1;
-      transform: rotate(180deg);
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding-block: 20px;
-    }
-
-    .lower_svg_wraper {
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      z-index: 1;
-    }
-
-    .card {
-      background-color: transparent;
-      border: none;
-      @include flexCenterAlignment();
-      flex-direction: row;
-      .icon_wraper {
-        img {
-          width: 150px;
-          height: 150px;
-        }
-      }
-  
-      .info_wraper {
-        text-align: start;
-        h2 {
-          font-weight: 700;
-          color: $white;
-          font-size: 55px;
-        }
-        h5 {
-          color: $white;
-        }
-      }
-    }
-  }
-}
-// END:: HOME HEIGHLIGHTS SECTION STYLES
 
 // START:: HEIGHLIGHTS SECTION STYLES
 .heightlights {
