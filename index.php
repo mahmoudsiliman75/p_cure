@@ -27,11 +27,11 @@
     </div>
   </div>
 
-    <!-- START:: SECTION SVG -->
-    <div class="curve_wraper">
-      <img src="assets/media/shapes/shp01.png" class="curve">
-    </div>
-    <!-- END:: SECTION SVG -->
+  <!-- START:: SECTION SVG -->
+  <div class="curve_wraper">
+    <img src="assets/media/shapes/shp01.png" class="curve">
+  </div>
+  <!-- END:: SECTION SVG -->
 
   <a class="carousel-control-prev" href="#home_slider" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -47,18 +47,18 @@
 
 <!-- START::ABOUT US SECTION -->
 <div class="about_us_sec">
-  <div class="container-fluid">
-    <div class="row justify-content-center p-2 overflow-hidden">
-      <div class="col-12 col-md-5 my-2 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+  <div class="container-fluid p-0">
+    <div class="row justify-content-center overflow-hidden">
+      <div class="col-12 col-md-5 p-0 my-2 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_img_wraper">
-          <img src="./assets/media/pic8.jpg" alt="about us iamge">
+          <img src="assets/media/pic8.jpg" alt="about us iamge">
         </div>
       </div>
 
       <div class="col-12 col-md-7 my-2 wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_text_wraper">
           <div class="header_wraper">
-            <h2> About El Koubasy </h2>
+            <h2> About "P Cure" </h2>
           </div>
 
           <div class="text_wraper">
@@ -140,7 +140,11 @@
 <div class="home_heightlights">
   <div class="container-fluid">
     <div class="header_wraper mb-4">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Al Koubasy Highlight </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> 
+        <span></span>
+        <span></span>
+        Al Koubasy Highlight
+      </h2>
     </div>
 
     <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/slider3.jpeg')">

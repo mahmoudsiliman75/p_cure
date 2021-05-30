@@ -62,9 +62,9 @@
 @mixin btnHoverEffect {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid $deepBlue;
+  border: 2px solid $secondaryColor;
   background-color: transparent;
-  color: $deepBlue;
+  color: $secondaryColor;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -114,7 +114,7 @@
     display: block;
     height: 15px;
     width: 15px;
-    border: 2px solid $mainColor;
+    border: 2px solid $secondaryColor;
   }
   &::before {
     left: 0;
@@ -133,7 +133,7 @@
     display: bolck;
     width: 15px;
     height: 15px;
-    border: 2px solid $mainColor;
+    border: 2px solid $secondaryColor;
     &:first-child {
       left: 0;
       bottom: 0;

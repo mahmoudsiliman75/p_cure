@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cairo:wght@300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
 
@@ -43,6 +43,12 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.bg_wraper_3 {
+  background: url("../media/shapes/1.svg");
+  background-position: center;
+  background-size: 100%;
 }
 
 .flexslider {
@@ -559,20 +565,28 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.about_us_sec {
-  padding: 30px;
-  background: url("../media/shapes/header-sape6.png");
-  background-position: center;
-  background-size: 100%;
+.about_us_sec .row {
+  padding: 30px 0;
 }
 
-.about_us_sec .about_us_img_wraper img {
-  border-radius: 10px;
+.about_us_sec .row .about_us_img_wraper {
+  -webkit-box-shadow: -45px 25px 0px 5px #efefef;
+          box-shadow: -45px 25px 0px 5px #efefef;
+  border-radius: 0 10px 10px 0;
+}
+
+.about_us_sec .row .about_us_img_wraper img {
+  border-radius: 0 10px 10px 0;
   width: 100%;
   height: auto;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper {
+.about_us_sec .row .about_us_text_wraper {
+  -webkit-padding-end: 25px;
+          padding-inline-end: 25px;
+}
+
+.about_us_sec .row .about_us_text_wraper .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,45 +604,45 @@ nav .menu_btn svg {
   margin-bottom: 15px;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2 {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2 {
   padding: 8px 15px;
   position: relative;
   color: #07669C;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2::before, .about_us_sec .about_us_text_wraper .header_wraper h2::after {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2::before, .about_us_sec .row .about_us_text_wraper .header_wraper h2::after {
   content: "";
   position: absolute;
   top: 0;
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2::before {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2::before {
   left: 0;
   border-right: none;
   border-bottom: none;
   border-radius: 5px 0 0 0;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2::after {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2::after {
   right: 0;
   border-left: none;
   border-bottom: none;
   border-radius: 0 5px 0 0;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2 span {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2 span {
   position: absolute;
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2 span:first-child {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2 span:first-child {
   left: 0;
   bottom: 0;
   border-right: none;
@@ -636,7 +650,7 @@ nav .menu_btn svg {
   border-radius: 0 0 0 5px;
 }
 
-.about_us_sec .about_us_text_wraper .header_wraper h2 span:last-child {
+.about_us_sec .row .about_us_text_wraper .header_wraper h2 span:last-child {
   right: 0;
   bottom: 0;
   border-left: none;
@@ -644,15 +658,19 @@ nav .menu_btn svg {
   border-radius: 0 0 5px 0;
 }
 
-.about_us_sec .about_us_text_wraper .text_wraper {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #666;
-  text-align: start;
+.about_us_sec .row .about_us_text_wraper .text_wraper {
+  background: url("../media/shapes/9.png");
+  background-position: center;
+  background-size: 100%;
   word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 18px;
 }
 
-.about_us_sec .about_us_text_wraper .btn_wraper {
+.about_us_sec .row .about_us_text_wraper .btn_wraper {
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,12 +683,12 @@ nav .menu_btn svg {
           justify-content: flex-end;
 }
 
-.about_us_sec .about_us_text_wraper .btn_wraper a {
+.about_us_sec .row .about_us_text_wraper .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -678,7 +696,7 @@ nav .menu_btn svg {
   border-radius: 5px;
 }
 
-.about_us_sec .about_us_text_wraper .btn_wraper a::before {
+.about_us_sec .row .about_us_text_wraper .btn_wraper a::before {
   content: '';
   position: absolute;
   top: -2px;
@@ -691,7 +709,7 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.about_us_sec .about_us_text_wraper .btn_wraper a::after {
+.about_us_sec .row .about_us_text_wraper .btn_wraper a::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -704,11 +722,11 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.about_us_sec .about_us_text_wraper .btn_wraper a:hover::before {
+.about_us_sec .row .about_us_text_wraper .btn_wraper a:hover::before {
   left: 65%;
 }
 
-.about_us_sec .about_us_text_wraper .btn_wraper a:hover::after {
+.about_us_sec .row .about_us_text_wraper .btn_wraper a:hover::after {
   right: 65%;
 }
 
@@ -744,7 +762,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .services_sec .header_wraper h2::before {
@@ -766,7 +784,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .services_sec .header_wraper h2 span:first-child {
@@ -857,7 +875,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .home_heightlights .header_wraper h2::before {
@@ -879,7 +897,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .home_heightlights .header_wraper h2 span:first-child {
@@ -999,7 +1017,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .heightlights .header_wraper h2::before {
@@ -1021,7 +1039,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .heightlights .header_wraper h2 span:first-child {
@@ -1194,7 +1212,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .events_sec .header_wraper h2::before {
@@ -1216,7 +1234,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .events_sec .header_wraper h2 span:first-child {
@@ -1321,9 +1339,9 @@ nav .menu_btn svg {
 .events_sec .event_text_wraper .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1394,7 +1412,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .products_cats .header_wraper h2::before {
@@ -1416,7 +1434,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .products_cats .header_wraper h2 span:first-child {
@@ -1508,7 +1526,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .latest_news_sec .header_wraper h2::before {
@@ -1530,7 +1548,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .latest_news_sec .header_wraper h2 span:first-child {
@@ -1603,9 +1621,9 @@ nav .menu_btn svg {
 .latest_news_sec .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1680,7 +1698,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .our_clients_sec .header_wraper h2::before {
@@ -1702,7 +1720,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .our_clients_sec .header_wraper h2 span:first-child {
@@ -1770,9 +1788,9 @@ nav .menu_btn svg {
 .our_clients_sec .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1846,7 +1864,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_clients_sec .header_wraper h2::before {
@@ -1868,7 +1886,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_clients_sec .header_wraper h2 span:first-child {
@@ -1921,9 +1939,9 @@ nav .menu_btn svg {
 .all_clients_sec .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1998,7 +2016,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .our_team_sec .header_wraper h2::before {
@@ -2020,7 +2038,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .our_team_sec .header_wraper h2 span:first-child {
@@ -2175,9 +2193,9 @@ nav .menu_btn svg {
 .our_team_sec .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -2251,7 +2269,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_team_sec .header_wraper h2::before {
@@ -2273,7 +2291,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_team_sec .header_wraper h2 span:first-child {
@@ -2379,7 +2397,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .about_info .header_wraper h2::before {
@@ -2401,7 +2419,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .about_info .header_wraper h2 span:first-child {
@@ -2496,7 +2514,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .story .header_wraper h2::before {
@@ -2518,7 +2536,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .story .header_wraper h2 span:first-child {
@@ -2620,7 +2638,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .awards_rec .header_wraper h2::before {
@@ -2642,7 +2660,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .awards_rec .header_wraper h2 span:first-child {
@@ -2779,7 +2797,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .personal_sec .persona_text_wraper .header_wraper h3::before {
@@ -2801,7 +2819,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .personal_sec .persona_text_wraper .header_wraper h3 span:first-child {
@@ -2844,9 +2862,9 @@ nav .menu_btn svg {
 .personal_sec .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -2917,7 +2935,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .vision .header_wraper h2::before {
@@ -2939,7 +2957,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .vision .header_wraper h2 span:first-child {
@@ -2998,7 +3016,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .faqs .header_wraper h2::before {
@@ -3020,7 +3038,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .faqs .header_wraper h2 span:first-child {
@@ -3116,7 +3134,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .quality .header_wraper h2::before {
@@ -3138,7 +3156,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .quality .header_wraper h2 span:first-child {
@@ -3194,7 +3212,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .certificats .header_wraper h2::before {
@@ -3216,7 +3234,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .certificats .header_wraper h2 span:first-child {
@@ -3287,7 +3305,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .about_service .header_wraper h2::before {
@@ -3309,7 +3327,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .about_service .header_wraper h2 span:first-child {
@@ -3374,7 +3392,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .related_products .header_wraper h2::before {
@@ -3396,7 +3414,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .related_products .header_wraper h2 span:first-child {
@@ -3553,7 +3571,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .oportunities .header_wraper h2::before {
@@ -3575,7 +3593,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .oportunities .header_wraper h2 span:first-child {
@@ -3720,7 +3738,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .job_details .header_wraper h2::before {
@@ -3742,7 +3760,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .job_details .header_wraper h2 span:first-child {
@@ -3793,9 +3811,9 @@ nav .menu_btn svg {
 .job_details .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -3919,9 +3937,9 @@ nav .menu_btn svg {
 .job_application .form_wraper .btn_wraper button {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -3992,7 +4010,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .latest_news_slider .header_wraper h2::before {
@@ -4014,7 +4032,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .latest_news_slider .header_wraper h2 span:first-child {
@@ -4181,9 +4199,9 @@ nav .menu_btn svg {
 .latest_news_slider .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4254,7 +4272,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .related_news_slider .header_wraper h2::before {
@@ -4276,7 +4294,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .related_news_slider .header_wraper h2 span:first-child {
@@ -4357,9 +4375,9 @@ nav .menu_btn svg {
 .related_news_slider .owl-carousel .item .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4502,9 +4520,9 @@ nav .menu_btn svg {
 .related_news_slider .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4575,7 +4593,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .events_slider .header_wraper h2::before {
@@ -4597,7 +4615,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .events_slider .header_wraper h2 span:first-child {
@@ -4711,9 +4729,9 @@ nav .menu_btn svg {
 .events_slider .owl-carousel .item .event_text_wraper .card_btn_wraper button {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4771,9 +4789,9 @@ nav .menu_btn svg {
 .events_slider .owl-carousel .item .event_text_wraper .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4916,9 +4934,9 @@ nav .menu_btn svg {
 .events_slider .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4990,7 +5008,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .videos-sec .header_wraper h2::before {
@@ -5012,7 +5030,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .videos-sec .header_wraper h2 span:first-child {
@@ -5147,9 +5165,9 @@ nav .menu_btn svg {
 .videos-sec .btn_box a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5223,7 +5241,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .videos .header_wraper h2::before {
@@ -5245,7 +5263,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .videos .header_wraper h2 span:first-child {
@@ -5291,9 +5309,9 @@ nav .menu_btn svg {
 .videos .btn_box a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5367,7 +5385,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_news .header_wraper h2::before {
@@ -5389,7 +5407,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_news .header_wraper h2 span:first-child {
@@ -5461,9 +5479,9 @@ nav .menu_btn svg {
 .all_news .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5536,7 +5554,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .auth_forms_wraper .header_wraper h2::before {
@@ -5558,7 +5576,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .auth_forms_wraper .header_wraper h2 span:first-child {
@@ -5672,9 +5690,9 @@ nav .menu_btn svg {
   margin: 15px 0;
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5772,7 +5790,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_events .header_wraper h2::before {
@@ -5794,7 +5812,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_events .header_wraper h2 span:first-child {
@@ -5897,9 +5915,9 @@ nav .menu_btn svg {
 .all_events .event_text_wraper .card_btn_wraper button {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5957,9 +5975,9 @@ nav .menu_btn svg {
 .all_events .event_text_wraper .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6016,9 +6034,9 @@ nav .menu_btn svg {
 .all_events .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6092,7 +6110,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_products .header_wraper h2::before {
@@ -6114,7 +6132,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .all_products .header_wraper h2 span:first-child {
@@ -6254,9 +6272,9 @@ nav .menu_btn svg {
 .all_products .btn_box button {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6341,7 +6359,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .product_info .product_info_wraper .header_wraper h3::before {
@@ -6363,7 +6381,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .product_info .product_info_wraper .header_wraper h3 span:first-child {
@@ -6495,9 +6513,9 @@ nav .menu_btn svg {
 .product_info .product_info_wraper .continue_shopping_btn a {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6593,7 +6611,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .share .header_wraper h2::before {
@@ -6615,7 +6633,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .share .header_wraper h2 span:first-child {
@@ -6713,9 +6731,9 @@ nav .menu_btn svg {
 .share .form_wraper form .btn_box button {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6786,7 +6804,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .get_in_touch .header_wraper h2::before {
@@ -6808,7 +6826,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .get_in_touch .header_wraper h2 span:first-child {
@@ -6927,7 +6945,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .page_content_wraper .header_wraper h2::before {
@@ -6949,7 +6967,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .page_content_wraper .header_wraper h2 span:first-child {
@@ -7013,9 +7031,9 @@ nav .menu_btn svg {
   margin-top: 20px;
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -7297,7 +7315,7 @@ nav .menu_btn svg {
   display: block;
   height: 15px;
   width: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .reset_password .header_wraper h2::before {
@@ -7319,7 +7337,7 @@ nav .menu_btn svg {
   display: bolck;
   width: 15px;
   height: 15px;
-  border: 2px solid #07669C;
+  border: 2px solid #03A88A;
 }
 
 .reset_password .header_wraper h2 span:first-child {
@@ -7399,9 +7417,9 @@ nav .menu_btn svg {
 .reset_password .form_wraper .btn_wraper button {
   text-decoration: none;
   padding: 8px 15px;
-  border: 2px solid #00303f;
+  border: 2px solid #03A88A;
   background-color: transparent;
-  color: #00303f;
+  color: #03A88A;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
