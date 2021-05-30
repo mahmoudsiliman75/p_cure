@@ -84,7 +84,7 @@
 <!-- END::ABOUT US SECTION -->
 
 <!-- START:: OUR TEAM SECTION -->
-<div class="team_section">
+<div class="team_sec">
   <div class="upper_curve_wraper">  
     <img src="assets/media/shapes/banner-15-bottom.png">
   </div>
@@ -202,67 +202,116 @@
 </div>
 <!-- END:: OUR TEAM SECTION -->
 
-<!-- START:: SERVICES SECTION -->
-<div class="services_sec">
-  <div class="header_wraper">
-    <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Our Services </h2>
-  </div>
-
+<!-- START:: OPERATIONS SECTION  -->
+<div class="operation_sec">
   <div class="container-fluid">
-    <div class="row service_wraper justify-content-center mt-3 overflow-hidden">
-      <div class="col-6 col-md-3 my-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <a href="ServiceDetails.php">
-          <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
-          <h5> 
-            Export Services
-          </h5>
-          <i class="fas fa-angle-double-right"></i>
-        </a>
+    <div class="header_wraper"> 
+      <h2 clas="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s">
+        Operations
+      </h2>
+    </div>
+
+    <div class="row justify-content-center overflow-hidden">
+      <div class="col-10 col-lg-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.2s">
+        <div class="operation_card_wraper">
+          <div class="front_face">
+            <img src="assets/media/pic12.jpg" alt="">
+          </div>
+
+          <div class="back_face">
+            <h4> Operation Name 1 </h4>
+
+            <div class="text_wraper">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptate, vero laudantium laborum cumque quidem. 
+            </div>
+
+            <div class="btn_wraper">
+              <a href="OperationDetails.php"> More Details </a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-6 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
-        <a href="ServiceDetails.php">
-          <img src="assets/media/pic11.jpg" alt="Why Section Icon 1">
-          <h5> 
-            Import Services
-          </h5>
-          <i class="fas fa-angle-double-right"></i>
-        </a>
+      <div class="col-10 col-lg-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
+        <div class="operation_card_wraper">
+          <div class="front_face">
+          <img src="assets/media/pic3.jpg" alt="">
+          </div>
+
+          <div class="back_face">
+            <h4> Operation Name 2 </h4>
+
+            <div class="text_wraper">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptate, vero laudantium laborum cumque quidem. 
+            </div>
+
+            <div class="btn_wraper">
+              <a href="OperationDetails.php"> More Details </a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
-        <a href="ServiceDetails.php">
-          <img src="assets/media/pic7.jpg" alt="Why Section Icon 1">
-          <h5> 
-            Local Distribution
-          </h5>
-          <i class="fas fa-angle-double-right"></i>
-        </a>
+      <div class="col-10 col-lg-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.8s">
+        <div class="operation_card_wraper">
+          <div class="front_face">
+            <img src="assets/media/pic15.jpg" alt="">
+          </div>
+
+          <div class="back_face">
+            <h4> Operation Name 3 </h4>
+
+            <div class="text_wraper">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptate, vero laudantium laborum cumque quidem. 
+            </div>
+
+            <div class="btn_wraper">
+              <a href="OperationDetails.php"> More Details </a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-6 col-md-3 my-3 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="1.1s">
-        <a href="AllProducts.php">
-          <img src="assets/media/pic20.jpg" alt="Why Section Icon 1">
-          <h5> 
-            Online Shopping
-          </h5>
-          <i class="fas fa-angle-double-right"></i>
-        </a>
-      </div>
+      <div class="col-10 col-lg-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1.2s">
+        <div class="operation_card_wraper">
+          <div class="front_face">
+            <img src="assets/media/pic5.jpg" alt="">
+          </div>
 
+          <div class="back_face">
+            <h4> Product Name 4 </h4>
+
+            <div class="text_wraper">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptate, vero laudantium laborum cumque quidem. 
+            </div>
+
+            <div class="btn_wraper">
+              <a href="OperationDetails.php"> More Details </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="btn_wraper">
+        <a href="AllOperation.php"> All Operation </a>
+      </div>
     </div>
   </div>
 </div>
-<!-- END:: SERVICES SECTION -->
+<!-- END:: OPERATIONS SECTION  -->
 
 <!-- START:: HEIGHLIGHTS SECTION -->
 <div class="home_heightlights">
   <div class="container-fluid">
     <div class="header_wraper mb-4">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> 
-        <span></span>
-        <span></span>
-        Al Koubasy Highlight
+        Operation Highlights
       </h2>
     </div>
 
@@ -589,270 +638,82 @@
 </div>
 <!-- END:: HEIGHLIGHTS SECTION -->
 
-<div class="bg_wraper_2">
-  <!-- START:: EVENTS SLIDER -->
-  <div class="events_slider">
-    <div class="container">
-      <div class="header_wraper">
-        <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Events </h2>
-      </div>
-  
-      <div class="row flex-column align-items-center justify-content-center mt-3 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <div id="events" class="owl-carousel owl-theme col-12">
-  
-          <div class="item">
-            <div class="row justify-content-between p-2">
-              <div class="col-12 col-md-6 my-2">
-                <div class="event_text_wraper">
-                  <div class="header_wraper">
-                    <h3> Conference Title </h3>
-                  </div>
-  
-                  <div class="text_wraper">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem.
-                  </div>
-  
-                  <div class="card_btn_wraper">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn" data-toggle="modal" data-target="#event">
-                      Events Photos
-                    </button>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-5 my-2">
-                <div class="event_img_wraper">
-                  <img src="./assets/media/pic21.jpg" alt="about us iamge">
-  
-                  <div class="event_date">
-                    <i class="far fa-calendar-alt fa-lg"></i>
-                    <p>
-                      <span> Event Date </span>
-                      <span> 1 - Apr - 2021 </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-          <div class="item">
-            <div class="row justify-content-between p-2">
-              <div class="col-12 col-md-6 my-2">
-                <div class="event_text_wraper">
-                  <div class="header_wraper">
-                    <h3> Conference Title </h3>
-                  </div>
-  
-                  <div class="text_wraper">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem.
-                  </div>
-  
-                  <div class="card_btn_wraper">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn" data-toggle="modal" data-target="#event">
-                      Events Photos
-                    </button>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-5 my-2">
-                <div class="event_img_wraper">
-                  <img src="./assets/media/pic10.jpg" alt="about us iamge">
-  
-                  <div class="event_date">
-                    <i class="far fa-calendar-alt fa-lg"></i>
-                    <p>
-                      <span> Event Date </span>
-                      <span> 1 - Apr - 2021 </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-          <div class="item">
-            <div class="row justify-content-between p-2">
-              <div class="col-12 col-md-6 my-2">
-                <div class="event_text_wraper">
-                  <div class="header_wraper">
-                    <h3> Conference Title </h3>
-                  </div>
-  
-                  <div class="text_wraper">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem.
-                  </div>
-  
-                  <div class="card_btn_wraper">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn" data-toggle="modal" data-target="#event">
-                      Events Photos
-                    </button>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-5 my-2">
-                <div class="event_img_wraper">
-                  <img src="./assets/media/pic15.jpg" alt="about us iamge">
-  
-                  <div class="event_date">
-                    <i class="far fa-calendar-alt fa-lg"></i>
-                    <p>
-                      <span> Event Date </span>
-                      <span> 1 - Apr - 2021 </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- START:: EVENT PICS MODAL -->
-        <div class="modal fade" id="event" tabindex="-1" aria-labelledby="imgsModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Conference Title</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div id="slider" class="flexslider">
-                  <ul class="slides">
-                    <li>
-                      <img src="assets/media/pic2.jpg" />
-                    </li>
-                    <li>
-                      <img src="assets/media/pic3.jpg" />
-                    </li>
-                    <li>
-                      <img src="assets/media/pic4.jpg" />
-                    </li>
-                    <li>
-                      <img src="assets/media/pic5.jpg" />
-                    </li>
-                    <li>
-                      <img src="assets/media/pic6.jpg" />
-                    </li>
-                    <li>
-                      <img src="assets/media/pic7.jpg" />
-                    </li>
-                  </ul>
-                </div>
-  
-                <div id="carousel" class="flexslider">
-                  <ul class="slides">
-                    <li>
-                      <img class="min_img" src="assets/media/pic2.jpg" />
-                    </li>
-                    <li>
-                      <img class="min_img" src="assets/media/pic3.jpg" />
-                    </li>
-                    <li>
-                      <img class="min_img" src="assets/media/pic4.jpg" />
-                    </li>
-                    <li>
-                      <img class="min_img" src="assets/media/pic5.jpg" />
-                    </li>
-                    <li>
-                      <img class="min_img" src="assets/media/pic6.jpg" />
-                    </li>
-                    <li>
-                      <img class="min_img" src="assets/media/pic7.jpg" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END:: EVENT PICS MODAL -->
-  
-        <div class="btn_wraper">
-          <a href="AllEvents.php"> View More </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END:: EVENTS SLIDER -->
-  
-  <!-- START:: PRODUCTS CATS SECTION -->
-  <div class="products_cats">
-    <div class="header_wraper">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Products Categories </h2>
-    </div>
-  
-    <div class="container">
-      <div class="row cats_wraper justify-content-center mt-3 overflow-hidden">
-        <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-          <a href="AllProducts.php">
-            <img src="assets/media/pic4.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Fresh Fruits
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
-          </a>
-        </div>
-  
-        <div class="col-6 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
-          <a href="AllProducts.php">
-            <img src="assets/media/pic6.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Fresh Vegetables
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
-          </a>
-        </div>
-  
-        <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
-          <a href="AllProducts.php">
-            <img src="assets/media/pic1.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Juices
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
-          </a>
-        </div>
 
-        <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
-          <a href="AllProducts.php">
-            <img src="assets/media/pic15.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Ice Cream
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
-          </a>
-        </div>
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START:: SERVICES SECTION -->
+<!-- <div class="services_sec">
+  <div class="header_wraper">
+    <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Our Services </h2>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row service_wraper justify-content-center mt-3 overflow-hidden">
+      <div class="col-6 col-md-3 my-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <a href="ServiceDetails.php">
+          <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Export Services
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
       </div>
+
+      <div class="col-6 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
+        <a href="ServiceDetails.php">
+          <img src="assets/media/pic11.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Import Services
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
+        <a href="ServiceDetails.php">
+          <img src="assets/media/pic7.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Local Distribution
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 my-3 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="1.1s">
+        <a href="AllProducts.php">
+          <img src="assets/media/pic20.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Online Shopping
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
     </div>
   </div>
-  <!-- END:: PRODUCTS CATS SECTION -->
-</div>
+</div> -->
+<!-- END:: SERVICES SECTION -->
+
 
 <!-- START::LATEST NEWS SECTION -->
-<div class="latest_news_sec">
+<!-- <div class="latest_news_sec">
   <div class="container">
     <div class="header_wraper">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Latest News </h2>
@@ -889,11 +750,11 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- END::LATEST NEWS SECTION -->
 
 <!-- START:: OUR CLIENTS SECTION -->
-<div class="our_clients_sec">
+<!-- <div class="our_clients_sec">
   <div class="container-fluid">
     <div class="header_wraper">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Clients </h2>
@@ -958,7 +819,7 @@
       <a href="AllClients.php"> View More </a>
     </div>
   </div>
-</div>
+</div> -->
 <!-- END:: OUR CLIENTS SECTION --> 
 
 <!-- START:: OUR TEAM SECTION -->
