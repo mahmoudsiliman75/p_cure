@@ -83,6 +83,125 @@
 </div>
 <!-- END::ABOUT US SECTION -->
 
+<!-- START:: OUR TEAM SECTION -->
+<div class="team_section">
+  <div class="upper_curve_wraper">  
+    <img src="assets/media/shapes/banner-15-bottom.png">
+  </div>
+
+  <div class="container">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Our Team </h2>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-4 my-3">
+        <div class="member_card">
+          <div class="img_wraper">
+            <img src="assets/media/team/default.jpg" alt=""> 
+          </div>
+
+          <h4> Doctor Name 1 </h4>
+          <h5> Doctor Title </h5>
+
+          <ul class="social">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-4 my-3">
+        <div class="member_card">
+          <div class="img_wraper">
+            <img src="assets/media/team/default.jpg" alt=""> 
+          </div>
+
+          <h4> Doctor Name 2 </h4>
+          <h5> Doctor Title </h5>
+
+          <ul class="social">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-4 my-3">
+        <div class="member_card">
+          <div class="img_wraper">
+            <img src="assets/media/team/default.jpg" alt=""> 
+          </div>
+
+          <h4> Doctor Name 3 </h4>
+          <h5> Doctor Title </h5>
+
+          <ul class="social">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="btn_wraper">
+        <a href="Team.php"> All Team </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="lower_curve_wraper">
+    <img src="assets/media/shapes/banner-15-bottom.png">
+  </div>
+</div>
+<!-- END:: OUR TEAM SECTION -->
+
 <!-- START:: SERVICES SECTION -->
 <div class="services_sec">
   <div class="header_wraper">
