@@ -428,7 +428,7 @@ nav {
     display: block;
     width: 100%;
     height: 100%;
-    background: linear-gradient($deepBlue, $secondaryColor);
+    background: linear-gradient(to right, $deepBlue, $secondaryColor);
     clip-path: circle(25% at right 90%);
     z-index: 0;
   }
@@ -441,9 +441,15 @@ nav {
     display: block;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#2196f3, $secondaryColor);
+    background: linear-gradient(to bottom, #2196f3, $secondaryColor);
     clip-path: circle(20% at 10% 10%);
     z-index: 0;
+  }
+
+  @media ( max-width: 720px ) {
+    &::before {
+      clip-path: circle(21% at 110% 90%);
+    }
   }
 
   .upper_curve_wraper {
@@ -1154,6 +1160,7 @@ nav {
 
   .alert_wraper {
     @include flexCenterAlignment();
+    width: 100%;
   }
 
   .map_wraper {
@@ -1231,6 +1238,133 @@ nav {
 }
 // END:: CONTACT US SECTION STYLES
 
+// START:: FOOTER STYLES
+footer {
+  padding-top: 25px;
+  background-color: $darkGrey;
+  position: relative;
+
+  .upper_svg_wraper {
+    width: 100%;
+    position: absolute;
+    top: -1px;
+    z-index: 1;
+    transform: rotate(180deg);
+    .curve {
+      width: 100%;
+      height: 45px;
+    }
+  }
+
+  .footer_logo {
+    @include flexCenterAlignment();
+    img {
+      min-width: 180px;
+      max-width: 180px;
+      min-height: 180px;
+      max-height: 180px;
+    }
+  }
+
+  .short_cuts {
+    display: flex;
+    flex-direction: row;
+    a {
+      text-decoration: none;
+      color: $white;
+      @include menuHoverEffect();
+      @include transitioning(0.5s);
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+  }
+
+  .get_in_touch {
+    h5 {
+      color: $white;
+    }
+    ul {
+      color: $white; 
+      li {
+        margin: 8px 0;
+        svg {
+          color: $secondaryColor;
+        }
+        span {
+          margin-inline-start: 5px;
+          color: $white;
+          a {
+            text-decoration: none;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .follow_us {
+    h5 {
+      color: $lighterGrey;
+    }
+    ul {
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 3px 5px;
+        @include transitioning(0.4s);
+        a {
+          opacity: 0.6;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+          a {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .payment_methods {
+      @include flexCenterAlignment();
+      span {
+        font-family: 'Acme', sans-serif;
+        margin-inline: 10px;
+        font-size: 20px;
+        color: $white;
+        @include transitioning(0.4s);
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .copy_rights {
+    padding: 5px;
+    background-color: #121212;
+    color: $white;
+    span {
+      a {
+        text-decoration: none;
+        color: $mainColor;
+        @include transitioning(0.5s);
+        &:hover {
+          color: $secondaryColor;
+        }
+      }
+    }
+  }
+}
+// END:: FOOTER STYLES
 
 
 
@@ -3572,383 +3706,5 @@ nav {
 }
 // END:: CONTACT INFO SECTION STYLES
 
-// START:: USER PROFILE PAGE CONTENT SECTION STYLES
-.page_content_wraper {
-  padding: $paddingAmount;
-  height: calc(100vh - (92px + 220px));
-  .header_wraper {
-    @include flexCenterAlignment();
-    margin-bottom: 10px;
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  form.edit_info {
-    position: relative;
-    margin-top: 15px;
-    padding: 20px;
-    border-radius: $borderRadiusAmount;
-    overflow: hidden;
-    @include simpleShadow();
-
-    .form-group {
-      width: 100%;
-      input {
-        margin-bottom: 15px;
-        padding: 25px 5px;
-        border: 1px solid $lighterGrey;
-        @include borderRadius($borderRadiusAmount);
-        &:focus {
-          box-shadow: none;
-          outline: none !important;
-        }
-      }
-    }
-    .btn_box {
-      width: 100%;
-      @include flexCenterAlignment();
-      button {
-        margin-bottom: 15px;
-        margin-top: 20px;
-        @include btnHoverEffect();
-        padding: 10px 10px;
-      }
-      span {
-        color: $deepBlue;
-        font-size: 14px;
-        cursor: pointer;
-        &:hover {
-          text-decoration: underline;
-          color: rgb(49, 94, 146);
-        }
-      }
-    }
-  }
-
-  table {
-    td {
-      button {
-        color: $midRed;
-        &:focus {
-          outline: none;
-        }
-      }
-    }
-  }
-
-  .caption_wraper {
-    .checkout_btn {
-      display: flex;
-      align-items: center;
-      padding: 0;
-      border: 1px solid #28A745;
-      border-radius: 15px;
-      overflow: hidden;
-      .total_price {
-        margin-inline-end: 8px;
-        background-color: $white;
-        font-size: 20px;
-        font-weight: 700;
-        padding: 0 5px;
-      }
-      .check_out {
-        background-color: #28A745;
-        color: $white;
-        padding: 10px;
-      }
-    }
-
-    .form-group {
-      margin: 0 15px;
-      .bootstrap-select {
-        border: 1px solid $lighterGrey;
-        @include borderRadius($borderRadiusAmount);
-        background-color: transparent;
-        width: 100% !important;
-        min-width: 160px;
-        button {
-          @include borderRadius($borderRadiusAmount);
-          &:focus {
-            border: none;
-            box-shadow: none;
-            outline: none !important;
-          }
-        }
-        .filter-option-inner-inner {
-          text-align: start;
-          color: $lightGrey;
-        }
-      }
-    }
-  }
-
-  .modal {
-    .modal-dialog {
-      .modal-header {
-        h5 {
-          color: $deepBlue;
-        }
-      }
-
-      .caption_wraper {
-        .form-group {
-          margin: 15px 0;
-          label {
-            color: $lightGrey;
-          }
-        }
-      }
-    }
-  }
-}
-// END:: USER PROFILE PAGE CONTENT SECTION STYLES
-
-// START:: USER PROFILE MENU SECTION STYLES
-.user_profile_menu {
-  padding: $paddingAmount;
-  padding-inline-end: 0;
-  border-left: 2px solid $deepRed;
-  background-color: #0f0c7014;
-  height: 100%;
-  height: calc(100vh - (92px + 220px));
-  ul {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    li {
-      @include menuHoverEffect();
-      margin: 8px 0;
-      color: $lightGrey;
-      &.active,
-      &:hover {
-        svg {
-          color: $deepRed;
-        }
-      }
-      button {
-        color: $lightGrey;
-      }
-    }
-  }
-}
-
-@media ( max-width: 767px) {
-  .page_content_wraper {
-    order: 2;
-  }
-
-  .user_menu_wraper {
-    order: 1;
-    .user_profile_menu {
-      min-height: auto !important;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-inline-start: 0;
-      ul {
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        li {
-          font-size: 13px;
-        }
-      }
-    }
-  }
-}
-// END:: USER PROFILE MENU SECTION STYLES
-
-// START:: CHANGE PASSWORD FORM STYLS
-.reset_password {
-  min-height: calc(100vh - (92px + 220px) );
-  padding: $paddingAmount 0;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .form_wraper {
-    padding: 20px;
-    @include simpleShadow();
-    @include borderRadius($borderRadiusAmount);
-
-    .form-group {
-      text-align: start;
-      input {
-        border: 1px solid $lighterGrey;
-        @include borderRadius($borderRadiusAmount);
-        &:focus {
-          box-shadow: none;
-          outline: none !important;
-        }
-      }
-      .bootstrap-select {
-        border: 1px solid $lighterGrey;
-        @include borderRadius($borderRadiusAmount);
-        background-color: transparent;
-        width: 100% !important;
-        button {
-          @include borderRadius($borderRadiusAmount);
-          &:focus {
-            border: none;
-            box-shadow: none;
-            outline: none !important;
-          }
-        }
-        .filter-option-inner-inner {
-          text-align: start;
-          color: $lightGrey;
-        }
-      }
-    }
-
-    .btn_wraper {
-      width: 100%;
-      @include flexCenterAlignment();
-      button {
-        @include btnHoverEffect();
-      }
-    }
-  }
-}
-// END:: CHANGE PASSWORD FORM STYLS
-
-// START:: FOOTER STYLES
-footer {
-  padding-top: 25px;
-  background-color: $darkGrey;
-  position: relative;
-
-  .upper_svg_wraper {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    transform: rotate(180deg);
-  }
-
-  .footer_logo {
-    @include flexCenterAlignment();
-    img {
-      min-width: 180px;
-      max-width: 180px;
-      min-height: 80px;
-      max-height: 80px;
-    }
-  }
-
-  .short_cuts {
-    display: flex;
-    flex-direction: row;
-    a {
-      text-decoration: none;
-      color: $white;
-      overflow: hidden;
-      position: relative;
-      &::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: -100%;
-        display: block;
-        width: 100%;
-        height: 2px;
-        background-color: $lightRed;
-        @include transitioning(0.4s);
-      }
-      &:hover {
-        color: $lightRed;
-        &::before {
-          left: 0;
-        }
-      }
-    }
-  }
-
-  .get_in_touch {
-    h5 {
-      color: $white;
-    }
-    ul {
-      color: $white; 
-      li {
-        margin: 8px 0;
-        svg {
-          color: $lightRed;
-        }
-        span {
-          margin-inline-start: 5px;
-          color: $white;
-          a {
-            text-decoration: none;
-            color: $white;
-          }
-        }
-      }
-    }
-  }
-
-  .follow_us {
-    h5 {
-      color: $lighterGrey;
-    }
-    ul {
-      text-align: center;
-      li {
-        display: inline-block;
-        margin: 3px 5px;
-        @include transitioning(0.4s);
-        a {
-          opacity: 0.6;
-          img {
-            width: 40px;
-            height: 40px;
-          }
-        }
-        &:hover {
-          transform: rotate(360deg) scale(1.2);
-          a {
-            opacity: 1;
-          }
-        }
-      }
-    }
-
-    .payment_methods {
-      @include flexCenterAlignment();
-      span {
-        font-family: 'Acme', sans-serif;
-        margin-inline: 10px;
-        font-size: 20px;
-        color: $white;
-        @include transitioning(0.4s);
-        img {
-          width: 50px;
-          height: 50px;
-        }
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-    }
-  }
-
-  .copy_rights {
-    padding: 5px;
-    background-color: #121212;
-    color: $white;
-    span {
-      a {
-        text-decoration: none;
-        color: $lightOrange;
-        @include transitioning(0.4s);
-      }
-    }
-  }
-}
-// END:: FOOTER STYLES
 
