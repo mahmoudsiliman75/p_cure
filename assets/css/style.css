@@ -1656,6 +1656,9 @@ nav .menu_btn svg {
 
 .videos_sec {
   padding: 45px 0;
+  background: url("../media/shapes/header-sape6.png"), url("../media/shapes/9.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .videos_sec .header_wraper {
@@ -1728,6 +1731,22 @@ nav .menu_btn svg {
   position: relative;
 }
 
+.videos_sec .owl-carousel .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .videos_sec .owl-carousel .item .iframe_wraper {
   min-height: 250px;
   max-height: 250px;
@@ -1741,8 +1760,42 @@ nav .menu_btn svg {
 }
 
 .videos_sec .owl-carousel .item h5 {
-  color: #07669C;
-  margin-top: 8px;
+  text-align: center;
+  margin-block: 10px;
+  padding: 5px 30px;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
+  background-image: linear-gradient(to right, #03A88A, #07669C);
+  position: relative;
+  overflow: hidden;
+}
+
+.videos_sec .owl-carousel .item h5::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #fff;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid #fff;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+}
+
+.videos_sec .owl-carousel .item h5::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #fff;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid #fff;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
 }
 
 .videos_sec .owl-carousel .owl-nav {
