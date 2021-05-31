@@ -46,10 +46,9 @@ body {
 }
 
 .bg_wraper_2 {
-  background: url('../media/shapes/6-1.png');
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background: url('../media/shapes/bg-home-eduma-03.webp');
+  background-position: top;
+  background-size: cover;
 }
 
 .bg_wraper_3 {
@@ -324,11 +323,11 @@ nav {
 
   @media ( max-width: 767px ) {
     .carousel-inner {
-      max-height: 400px;
+      max-height: 450px;
       img {
         width: 100%;
-        min-height: 400px;
-        max-height: 400px;
+        min-height: 450px;
+        max-height: 450px;
       }
     }
   }
@@ -369,7 +368,6 @@ nav {
       background-position: center;
       background-size: 100%;
 
-
       .header_wraper {
         @include flexCenterAlignment();
         justify-content: flex-start;
@@ -390,6 +388,24 @@ nav {
         @include flexEndAlignment();
         a {
           @include btnHoverEffect();
+        }
+      }
+    }
+
+    @media ( max-width: 767px ) {
+      .about_us_img_wraper {
+        box-shadow: none;
+      }
+
+      .about_us_text_wraper {
+        padding-inline: 25px;
+        .header_wraper {
+          margin-inline-start: 0;
+          @include flexCenterAlignment();
+        }
+
+        .text_wraper {
+          text-align: center;
         }
       }
     }
@@ -719,6 +735,18 @@ nav {
         }
       }
     }
+
+    @media ( max-width: 990px ) {
+      .card {
+        flex-direction: column;
+        .info_wraper {
+          h2,
+          h5 {
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 }
 // END:: HOME HEIGHLIGHTS SECTION STYLES
@@ -944,6 +972,7 @@ nav {
 // START:: NEWS SECCTION STYLES
 .articles_sec {
   padding: $paddingAmount 0;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -970,6 +999,7 @@ nav {
         position: absolute;
         bottom: 0;
         left: 0;
+        border-radius: 0 0 10px 10px;
         background-image: linear-gradient( to bottom, transparent, $white );
       }
   
@@ -1110,6 +1140,96 @@ nav {
   }
 }
 // END:: NEWS SECCTION STYLES
+
+// START:: CONTACT US SECTION STYLES
+.contact_us_sec {
+  padding: $paddingAmount 0;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .alert_wraper {
+    @include flexCenterAlignment();
+  }
+
+  .map_wraper {
+    height: 100%;
+      @include borderRadius($borderRadiusAmount);
+    iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 515px;
+      @include borderRadius($borderRadiusAmount);
+    }
+  }
+
+  .form_wraper {
+    min-height: 520px;
+    padding: 25px;
+    .header_wraper {
+      @include flexCenterAlignment();
+      h2 {
+        @include mainHeaderStyle();
+      }
+    }
+
+    .invalid_wraber {
+      p {
+        color: $lightRed;
+        margin-top: 0;
+        padding-inline-start: 15px;
+        text-align: start;
+        font-size: 13px;
+      }
+    }
+
+    .form-group {
+      background-color: $white;
+      @include midShadow();
+      @include borderRadius($largeBorderRadiusAmount);
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      input {
+        border: none;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      span {
+        svg {
+          color: $secondaryColor;
+        }
+      }
+      textarea {
+        border: none;
+        width: 100%;
+        height: 250px;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      &.invalid {
+        border: 1px solid $lightRed;
+        margin-bottom: 5px;
+      }
+    }
+
+    .btn_box {
+      @include flexCenterAlignment();
+      button {
+        @include btnHoverEffect();
+        background-color: transparent;
+      }
+    }
+  }
+}
+// END:: CONTACT US SECTION STYLES
 
 
 
