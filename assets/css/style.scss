@@ -1436,6 +1436,329 @@ nav {
 }
 // END:: ALL NEWS SECTION STYLES
 
+// START:: LATEST NEWS SECTION STYLES
+.article_details_sec {
+  padding: $paddingAmount 0;
+  background: url('../media/shapes/3.png');
+  background-position: right 35%;
+  background-repeat: no-repeat;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .latest_article_img_wraper {
+    position: relative;
+
+    img {
+      border-radius: $borderRadiusAmount;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .article_header_wraper {
+    @include flexCenterAlignment();
+    flex-direction: column;
+    h3,
+    h5 {
+      text-align: center;
+      margin-block: 10px;
+      padding: 5px 30px;
+      color: $white;
+      background-image: linear-gradient( to right, $secondaryColor, $mainColor );
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        border-top: 20px solid $white;
+        border-right: 20px solid $white;
+        border-bottom: 20px solid $white;
+        border-left: 20px solid $white;
+        transform: translateY(-50%) rotate(45deg);
+      }
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        border-top: 20px solid $white;
+        border-right: 20px solid $white;
+        border-bottom: 20px solid $white;
+        border-left: 20px solid $white;
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+  }
+
+  .latest_article_text_wraper {
+    .text_wraper {
+      @include textWraper();
+      text-align: center;
+    }
+  }
+
+  .btn_wraper {
+    margin-top: 20px;
+    @include flexEndAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: LATEST NEWS SECTION STYLES
+
+// START:: RELATED NEWS SLIDER STYLES
+.related_news_slider {
+  padding: $paddingAmount;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      direction: ltr;
+      a {
+        text-decoration: none;
+        .article_card_wraper {
+          background-color: $white;
+          min-height: 490px;
+          max-height: 490px;
+          text-align: center;
+          position: relative;
+          @include borderRadius($borderRadiusAmount);
+          @include midShadow();
+    
+          &::before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 80px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 0 0 10px 10px;
+            background-image: linear-gradient( to bottom, transparent, $white );
+          }
+      
+          &:hover {
+            .img_wraper {
+              .overlay {
+                opacity: 1;
+              }
+    
+              .card_img {
+                transform: scale(1.05);
+              }
+            }
+          }
+      
+          .img_wraper {
+            position: relative;
+            overflow: hidden;
+            min-height: 250px;
+            max-height: 250px;
+            border-radius: $borderRadiusAmount $borderRadiusAmount 0 0;
+            .overlay {
+              opacity: 0;
+              z-index: 3;
+              position: absolute;
+              top: 0;
+              right: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              background-color: rgba(3, 168, 138, 0.5);
+              border-radius: 5px 5px 0 0;
+              @include flexCenterAlignment();
+              @include borderRadius($borderRadiusAmount);
+              @include transitioning(0.5s);
+              svg {
+                color: $white;
+              }
+            }
+      
+            .card_img {
+              @include transitioning(0.5s);
+              width: 100%;
+              min-height: 250px;
+              max-height: 250px;
+              z-index: 2;
+              border-radius: 5px 5px 0 0;
+            }
+    
+            .card_curve {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              overflow: hidden;
+              line-height: 0;
+              transform: rotate(180deg);
+              z-index: 3;
+              svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 30px;
+                .shape-fill {
+                  fill: $white;
+                }
+              }
+            }
+          
+          }
+      
+          .card_title_wraper {
+            margin-top: 25px;
+            position: relative;
+            @include flexCenterAlignment();
+            flex-direction: column;
+            h4 {
+              text-align: center;
+              margin-block: 10px;
+              padding: 5px 30px;
+              color: $white;
+              background-image: linear-gradient( to right, $secondaryColor, $mainColor );
+              position: relative;
+              overflow: hidden;
+    
+              &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: -30px;
+                border-top: 20px solid $white;
+                border-right: 20px solid $white;
+                border-bottom: 20px solid $white;
+                border-left: 20px solid $white;
+                transform: translateY(-50%) rotate(45deg);
+              }
+    
+              &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: -30px;
+                border-top: 20px solid $white;
+                border-right: 20px solid $white;
+                border-bottom: 20px solid $white;
+                border-left: 20px solid $white;
+                transform: translateY(-50%) rotate(45deg);
+              }
+            }
+    
+            h6 {
+              position: absolute;
+              right: 15px;
+              top: -38px;
+              z-index: 11;
+              color: $white;
+              padding: 5px;
+              background-image: linear-gradient(to right, $mainColor, $secondaryColor);
+              @include borderRadius($largeBorderRadiusAmount);
+            }
+          }
+      
+          .card_text {
+            padding: 10px 20px 10px 20px;
+            @include textWraper();
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 0;
+      top: 45%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        background-color: $mainColor;
+        color: $white;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        @include transitioning(0.4s);
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $mainColor;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $mainColor;
+          @include flexCenterAlignment();
+        }
+      }
+    }
+
+    @media (max-width: 1000px) {
+      .owl-nav {
+        display: none;
+      }
+    }
+  }
+
+  .btn_wraper {
+    margin-top: 20px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: RELATED NEWS SLIDER STYLES
+
 // START:: CONTACT US SECTION STYLES
 .contact_us_sec {
   padding: $paddingAmount 0;
@@ -1959,57 +2282,7 @@ footer {
 }
 // END:: PRODUCTS CATS SECTION STYLES
 
-// START:: LATEST NEWS SECTION STYLES
-.latest_news_sec {
-  padding: $paddingAmount 0;
-  background: url('../media/shapes/3.png');
-  background-position: right 35%;
-  background-repeat: no-repeat;
 
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .latest_article_img_wraper {
-    position: relative;
-    img {
-      border-radius: $borderRadiusAmount;
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  .latest_article_text_wraper {
-    .header_wraper {
-      @include flexCenterAlignment();
-      justify-content: space-between;
-      h3,
-      h5 {
-        color: $deepBlue;
-      }
-    }
-
-    .text_wraper {
-      font-size: 18px;
-      line-height: 1.6;
-      color: $lightGrey;
-      text-align: start;
-      word-break: break-word;
-    }
-  }
-
-  .btn_wraper {
-    margin-top: 20px;
-    @include flexEndAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: LATEST NEWS SECTION STYLES
 
 // START:: OUR CLIENTS SECTION STYLES
 .our_clients_sec {
@@ -3103,128 +3376,7 @@ footer {
 }
 // END:: LATEST NEWS SLIDER STYLE
 
-// START:: RELATED NEWS SLIDER STYLES
-.related_news_slider {
-  padding: $paddingAmount;
 
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .owl-carousel {
-    position: relative;
-
-    .item {
-      direction: ltr;
-      .card {
-        background-color: transparent;
-        border: none;
-        text-decoration: none;
-        @include flexCenterAlignment();
-        img {
-          width: 100%;
-          min-height: 250px;
-          max-height: 250px;
-        }
-    
-        .card-body {
-          width: 100%;
-          border-left: 2px solid $deepRed;
-          padding-block: 0;
-          padding-inline-start: 8px;
-          text-align: start;
-          h4 {
-            color: $deepBlue;
-          }
-    
-          h5 {
-            color: $lightGrey;
-          }
-        }
-      }
-      .btn_wraper {
-        margin-top: 20px;
-        @include flexEndAlignment();
-        a {
-          @include btnHoverEffect();
-        }
-      }
-    }
-
-    .owl-nav {
-      direction: ltr;
-      margin-top: 0;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .owl-prev,
-      .owl-next {
-        position: relative;
-        background-color: $deepBlue;
-        color: $white;
-        width: 35px;
-        height: 35px;
-        line-height: 25px;
-        border-radius: 50%;
-        overflow: hidden;
-        @include transitioning(0.4s);
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      .owl-prev {
-        &::before {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-      .owl-next {
-        &::before {
-          content: "\f0da";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-    }
-
-    @media (max-width: 1000px) {
-      .owl-nav {
-        display: none;
-      }
-    }
-  }
-
-  .btn_wraper {
-    margin-top: 20px;
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: RELATED NEWS SLIDER STYLE
 
 
 // START:: EVENTS SLIDER STYLES
