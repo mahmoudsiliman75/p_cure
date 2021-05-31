@@ -25,16 +25,21 @@ body {
   position: relative;
   min-height: 300px;
   max-height: 300px;
-  img {
+  .intro_img {
     width: 100%;
     min-height: 300px;
     max-height: 300px;
   }
 
   .lower_svg_wraper {
-    width: 100%;
     position: absolute;
     bottom: 0;
+    height: 45px;
+    z-index: 1;
+    .curve {
+      width: 100%;
+      height: 45px;
+    }
   }
 }
 
@@ -1014,6 +1019,76 @@ nav {
 }
 // END:: VIDEOS SECTION STYLES
 
+// START:: ALL VIDEOS PAGE STYLES
+.all_videos {
+  padding-bottom: $paddingAmount;
+  background: url('../media/shapes/striples-bg.svg');
+  background-position: center;
+  background-size: 100%;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .video_wraper {
+    @include flexCenterAlignment();
+    flex-direction: column;
+
+    iframe {
+      width: 100%;
+      min-height: 250px;
+      max-height: 250px;
+      border-radius: $borderRadiusAmount;
+    }
+    h4 {
+      text-align: center;
+      margin-block: 10px;
+      padding: 5px 30px;
+      color: $white;
+      background-image: linear-gradient( to right, $secondaryColor, $mainColor );
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        border-top: 20px solid $white;
+        border-right: 20px solid $white;
+        border-bottom: 20px solid $white;
+        border-left: 20px solid $white;
+        transform: translateY(-50%) rotate(45deg);
+      }
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        border-top: 20px solid $white;
+        border-right: 20px solid $white;
+        border-bottom: 20px solid $white;
+        border-left: 20px solid $white;
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: ALL VIDEOS PAGE STYLES
+
 // START:: NEWS SECCTION STYLES
 .articles_sec {
   padding: $paddingAmount 0;
@@ -1276,6 +1351,7 @@ nav {
   }
 }
 // END:: CONTACT US SECTION STYLES
+
 
 // START:: FOOTER STYLES
 footer {

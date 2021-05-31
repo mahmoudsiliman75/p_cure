@@ -65,6 +65,13 @@
       </li>
 
       <li> 
+        <a href="AllVideos.php"> Videos </a>
+      </li>
+
+
+
+
+      <li> 
         <a href="AboutUs.php"> About Us </a>
       </li>
 
@@ -78,10 +85,6 @@
 
       <li> 
         <a href="Quality.php"> Quality </a>
-      </li>
-
-      <li> 
-        <a href="Media.php"> Media </a>
       </li>
 
       <li> 
