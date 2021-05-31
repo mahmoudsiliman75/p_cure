@@ -68,6 +68,10 @@
         <a href="AllVideos.php"> Videos </a>
       </li>
 
+      <li> 
+        <a href="AllArticles.php"> Articles </a>
+      </li>
+
 
 
 
