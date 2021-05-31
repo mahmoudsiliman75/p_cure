@@ -46,7 +46,7 @@ body {
 }
 
 .bg_wraper_2 {
-  background: url('../media/shapes/striples-bg2.png');
+  background: url('../media/shapes/6-1.png');
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -414,6 +414,7 @@ nav {
     height: 100%;
     background: linear-gradient($deepBlue, $secondaryColor);
     clip-path: circle(25% at right 90%);
+    z-index: 0;
   }
 
   &::after {
@@ -426,6 +427,7 @@ nav {
     height: 100%;
     background: linear-gradient(#2196f3, $secondaryColor);
     clip-path: circle(20% at 10% 10%);
+    z-index: 0;
   }
 
   .upper_curve_wraper {
@@ -533,6 +535,8 @@ nav {
     @include flexCenterAlignment();
     a {
       @include btnHoverEffect();
+      color: $white;
+      border: 2px solid $white;
       &::after,
       &::before {
         background-color: $mainColor;
@@ -840,6 +844,102 @@ nav {
   }
 }
 // END:: TESTEMONILS SECTION STYLES
+
+// START:: VIDEOS SECTION STYLES
+.videos_sec {
+  padding: $paddingAmount*1.5 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .iframe_wraper {
+        min-height: 250px;
+        max-height: 250px;
+        iframe {
+          width: 100%;
+          min-height: 250px;
+          max-height: 250px;
+          border-radius: $borderRadiusAmount;
+        }
+      }
+      h5 {
+        color: $deepBlue;
+        margin-top: 8px;
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        background-color: $deepBlue;
+        color: $white;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        @include transitioning(0.4s);
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+    }
+  }
+
+  .btn_box {
+    margin-top: 15px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: VIDEOS SECTION STYLES
 
 
 
@@ -2564,102 +2664,7 @@ nav {
 }
 // END:: EVENTS SLIDER STYLE
 
-// START:: VIDEOS SECTION STYLES
-.videos-sec {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  .owl-carousel {
-    position: relative;
-
-    .item {
-      .iframe_wraper {
-        min-height: 250px;
-        max-height: 250px;
-        iframe {
-          width: 100%;
-          min-height: 250px;
-          max-height: 250px;
-          border-radius: $borderRadiusAmount;
-        }
-      }
-      h5 {
-        color: $deepBlue;
-        margin-top: 8px;
-      }
-    }
-
-    .owl-nav {
-      direction: ltr;
-      margin-top: 0;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .owl-prev,
-      .owl-next {
-        position: relative;
-        background-color: $deepBlue;
-        color: $white;
-        width: 35px;
-        height: 35px;
-        line-height: 25px;
-        border-radius: 50%;
-        overflow: hidden;
-        @include transitioning(0.4s);
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      .owl-prev {
-        &::before {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-      .owl-next {
-        &::before {
-          content: "\f0da";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    margin-top: 15px;
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: VIDEOS SECTION STYLES
 
 // START:: ALL VIDEOS PAGE STYLES
 .videos {

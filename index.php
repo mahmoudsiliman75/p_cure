@@ -94,8 +94,8 @@
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Our Team </h2>
     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-10 col-md-4 my-3">
+    <div class="row justify-content-center overflow-hidden">
+      <div class="col-10 col-md-4 my-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.2s">
         <div class="member_card">
           <div class="img_wraper">
             <img src="assets/media/team/default.jpg" alt=""> 
@@ -126,7 +126,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-md-4 my-3">
+      <div class="col-10 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.7s">
         <div class="member_card">
           <div class="img_wraper">
             <img src="assets/media/team/default.jpg" alt=""> 
@@ -157,7 +157,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-md-4 my-3">
+      <div class="col-10 col-md-4 my-3 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="member_card">
           <div class="img_wraper">
             <img src="assets/media/team/default.jpg" alt=""> 
@@ -315,7 +315,7 @@
       </h2>
     </div>
 
-    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/shapes/2258.jpg')">
+    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/shapes/rm301-eye-05.jpg')">
       <!-- START:: UPPER SECTION SVG -->
       <div class="upper_svg_wraper">
         <img src="assets/media/shapes/banner-15-bottom.png">
@@ -454,6 +454,65 @@
 </div>
 <!-- END:: TESTEMONIALS SECTION -->
 
+<!-- START:: VIDEOS SECTION -->
+<div class="videos_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> 
+        Videos 
+      </h2>
+    </div>
+
+    <div class="row flex-column align-items-center justify-content-center mt-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div id="videos_slider" class="owl-carousel owl-theme col-11">
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+      </div>
+
+      <div class="btn_box">
+        <a href="AllVideos.php"> View More  </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: VIDEOS SECTION -->
+
+<!-- <div class="bg_wraper_2">
+</div> -->
 
 
 
