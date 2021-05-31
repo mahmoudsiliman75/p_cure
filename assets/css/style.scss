@@ -719,6 +719,128 @@ nav {
 }
 // END:: HOME HEIGHLIGHTS SECTION STYLES
 
+// START:: TESTEMONILS SECTION STYLES
+.testemonials {
+  padding: $paddingAmount*2.5 0;
+  background: url('../media/shapes/8.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .container {
+    .header_wraper {
+      @include flexCenterAlignment();
+      h2 {
+        @include mainHeaderStyle();
+      }
+    }
+    .owl-carousel {
+      .item {
+        padding: 10px;
+        .testemonial_card {
+          position: relative;
+          position: relative;
+          background: url('../media/shapes/qutation.png') $white;
+          background-position: 95% 15%;
+          background-repeat: no-repeat;
+          padding: 20px;
+          // border: 2px solid $mainColor;
+          @include flexCenterAlignment();
+          flex-direction: column;
+          @include midShadow();
+          @include borderRadius($borderRadiusAmount);
+          @include transitioning(0.4s);
+
+          .img_wraper {
+            @include flexCenterAlignment();
+            flex-direction: column;
+
+            img {
+              display: inline-block;
+              margin-block: 15px;
+              padding: 2px;
+              min-width: 90px;
+              max-width: 90px;
+              min-height: 90px;
+              max-height: 90px;
+              border: 2px solid $secondaryColor;
+              @include borderRadius(50%);
+              @include transitioning(0.4s);
+            }
+
+            h5 {
+              color: $mainColor;
+              @include transitioning(0.4s);
+            }
+          }
+
+          .card_body {
+            .text {
+              @include textWraper();
+              text-align: center;
+              font-size: 16px;
+              @include transitioning(0.4s);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_upper_curve_wraper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    svg {
+      position: relative;
+      display: block;
+      width: calc(139% + 1.3px);
+      height: 61px;
+      .shape-fill {
+        fill: $white;
+      }
+    }
+
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+      svg {
+        width: calc(139% + 1.3px);
+        height: 24px;
+      }
+    }
+  }
+
+  .section_lower_curve_wraper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    svg {
+      position: relative;
+      display: block;
+      width: calc(130% + 1.3px);
+      height: 61px;
+      .shape-fill {
+        fill: $white;
+      }
+    }
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+      svg {
+        width: calc(130% + 1.3px);
+        height: 24px;
+      }
+    }
+  }
+}
+// END:: TESTEMONILS SECTION STYLES
+
 
 
 

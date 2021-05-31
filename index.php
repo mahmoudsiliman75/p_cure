@@ -51,7 +51,7 @@
     <div class="row justify-content-center overflow-hidden">
       <div class="col-12 col-md-5 p-0 my-2 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_img_wraper">
-          <img src="assets/media/pic8.jpg" alt="about us iamge">
+          <img src="assets/media/imgs/img2.jpg" alt="about us iamge">
         </div>
       </div>
 
@@ -215,7 +215,7 @@
       <div class="col-10 col-lg-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.2s">
         <div class="operation_card_wraper">
           <div class="front_face">
-            <img src="assets/media/pic12.jpg" alt="">
+            <img src="assets/media/imgs/img3.jpg" alt="">
           </div>
 
           <div class="back_face">
@@ -236,7 +236,7 @@
       <div class="col-10 col-lg-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
         <div class="operation_card_wraper">
           <div class="front_face">
-          <img src="assets/media/pic3.jpg" alt="">
+          <img src="assets/media/imgs/img4.jpg" alt="">
           </div>
 
           <div class="back_face">
@@ -257,7 +257,7 @@
       <div class="col-10 col-lg-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.8s">
         <div class="operation_card_wraper">
           <div class="front_face">
-            <img src="assets/media/pic15.jpg" alt="">
+            <img src="assets/media/imgs/img3.jpg" alt="">
           </div>
 
           <div class="back_face">
@@ -278,7 +278,7 @@
       <div class="col-10 col-lg-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1.2s">
         <div class="operation_card_wraper">
           <div class="front_face">
-            <img src="assets/media/pic5.jpg" alt="">
+            <img src="assets/media/imgs/img4.jpg" alt="">
           </div>
 
           <div class="back_face">
@@ -315,7 +315,7 @@
       </h2>
     </div>
 
-    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/slider3.jpeg')">
+    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/shapes/2258.jpg')">
       <!-- START:: UPPER SECTION SVG -->
       <div class="upper_svg_wraper">
         <img src="assets/media/shapes/banner-15-bottom.png">
@@ -382,7 +382,77 @@
 </div>
 <!-- END:: HEIGHLIGHTS SECTION -->
 
+<!-- START:: TESTEMONIALS SECTION -->
+<div class="testemonials">
+  <div class="container">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        Testemonials 
+      </h2>
+    </div>
 
+    <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
+      <div id="testemonials" class="owl-carousel owl-theme col-12 col-md-8 wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="img_wraper">
+              <img src="assets/media/team/default.jpg" alt="">
+              <h5> Client Name 1 </h5>
+            </div>
+
+            <div class="card_body">
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="img_wraper">
+              <img src="assets/media/team/default.jpg" alt="">
+              <h5> Client Name 2 </h5>
+            </div>
+
+            <div class="card_body">
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="img_wraper">
+              <img src="assets/media/team/default.jpg" alt="">
+              <h5> Client Name 3 </h5>
+            </div>
+
+            <div class="card_body">
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: TESTEMONIALS SECTION -->
 
 
 
@@ -454,7 +524,6 @@
   </div>
 </div> -->
 <!-- END:: SERVICES SECTION -->
-
 
 <!-- START::LATEST NEWS SECTION -->
 <!-- <div class="latest_news_sec">
@@ -565,100 +634,6 @@
   </div>
 </div> -->
 <!-- END:: OUR CLIENTS SECTION --> 
-
-<!-- START:: OUR TEAM SECTION -->
-<div class="our_team_sec">
-  <div class="container-fluid">
-    <div class="header_wraper">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Team </h2>
-    </div>
-
-    <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="team" class="owl-carousel owl-theme col-12 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member1.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 1</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member2.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 2</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <!-- THIS IMAGE WILL BE DISPLAIED IF THERE IS NO IMAGE UPLOADED -->
-              <img src="assets/media/default.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 3</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member1.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 1</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member2.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 2</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <!-- THIS IMAGE WILL BE DISPLAIED IF THERE IS NO IMAGE UPLOADED -->
-              <img src="assets/media/default.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 3</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="btn_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <a href="Team.php"> View More </a>
-    </div>
-  </div>
-</div>
-<!-- END:: OUR TEAM SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

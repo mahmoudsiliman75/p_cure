@@ -49,6 +49,20 @@ $(document).ready( function() {
   // END:: TOGGLE PRODUCT BUTTONS
 
   // START:: OWL CAROUSEL
+  $('#testemonials').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:30,
+    nav: false,
+    dots: true,
+    items:1,
+    rtl: true, 
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
+  });
+
   $('#videos_slider').owlCarousel({
     loop:true,
     autoplay:true,
