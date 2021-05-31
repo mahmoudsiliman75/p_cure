@@ -464,7 +464,7 @@
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <div id="videos_slider" class="owl-carousel owl-theme col-11">
+      <div id="videos_slider" class="owl-carousel owl-theme col-12">
 
         <div class="item text-center">
           <div class="iframe_wraper">
@@ -526,7 +526,7 @@
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+                <i class="fas fa-expand-alt fa-3x"></i>
               </div>
               <img class="card_img" src="assets/media/imgs/img1.jpg" alt="">
               <div class="card_curve">
@@ -555,7 +555,7 @@
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+                <i class="fas fa-expand-alt fa-3x"></i>
               </div>
               <img class="card_img" src="assets/media/imgs/img2.jpg" alt="">
               <div class="card_curve">
@@ -584,7 +584,7 @@
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+                <i class="fas fa-expand-alt fa-3x"></i>
               </div>
               <img class="card_img" src="assets/media/imgs/img1.jpg" alt="">
               <div class="card_curve">
@@ -613,7 +613,7 @@
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+                <i class="fas fa-expand-alt fa-3x"></i>
               </div>
               <img class="card_img" src="assets/media/imgs/img1.jpg" alt="">
               <div class="card_curve">
@@ -642,7 +642,7 @@
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+                <i class="fas fa-expand-alt fa-3x"></i>
               </div>
               <img class="card_img" src="assets/media/imgs/img2.jpg" alt="">
               <div class="card_curve">
@@ -671,7 +671,7 @@
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+                <i class="fas fa-expand-alt fa-3x"></i>
               </div>
               <img class="card_img" src="assets/media/imgs/img1.jpg" alt="">
               <div class="card_curve">

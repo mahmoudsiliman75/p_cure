@@ -1696,7 +1696,7 @@ nav .menu_btn svg {
 }
 
 .videos_sec .owl-carousel .item h5 {
-  color: #00303f;
+  color: #07669C;
   margin-top: 8px;
 }
 
@@ -1720,7 +1720,7 @@ nav .menu_btn svg {
 .videos_sec .owl-carousel .owl-nav .owl-prev,
 .videos_sec .owl-carousel .owl-nav .owl-next {
   position: relative;
-  background-color: #00303f;
+  background-color: #07669C;
   color: #fff;
   width: 35px;
   height: 35px;
@@ -1746,7 +1746,7 @@ nav .menu_btn svg {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #00303f;
+  background-color: #07669C;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1767,7 +1767,7 @@ nav .menu_btn svg {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #00303f;
+  background-color: #07669C;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2027,6 +2027,10 @@ nav .menu_btn svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .articles_sec a .article_card_wraper .card_title_wraper h4 {
@@ -2037,11 +2041,11 @@ nav .menu_btn svg {
   background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
   background-image: linear-gradient(to right, #03A88A, #07669C);
   position: relative;
+  overflow: hidden;
 }
 
 .articles_sec a .article_card_wraper .card_title_wraper h4::before {
   content: '';
-  overflow: hidden;
   display: block;
   position: absolute;
   top: 50%;
@@ -2056,7 +2060,6 @@ nav .menu_btn svg {
 
 .articles_sec a .article_card_wraper .card_title_wraper h4::after {
   content: '';
-  overflow: hidden;
   display: block;
   position: absolute;
   top: 50%;
