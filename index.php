@@ -14,7 +14,7 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/media/slider/slide1.jpg" class="d-block" alt="Slide 1">
+      <img src="assets/media/slider/slide4.jpg" class="d-block" alt="Slide 1">
     </div>
     <div class="carousel-item">
       <img src="assets/media/slider/slide2.jpg" class="d-block" alt="Slide 2">
@@ -23,7 +23,7 @@
       <img src="assets/media/slider/slide3.jpg" class="d-block" alt="Slide 3">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/slider/slide4.jpg" class="d-block" alt="Slide 4">
+      <img src="assets/media/slider/slide1.jpg" class="d-block" alt="Slide 4">
     </div>
   </div>
 

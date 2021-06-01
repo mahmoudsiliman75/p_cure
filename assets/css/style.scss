@@ -644,6 +644,141 @@ nav {
 }
 // END:: OUR TEAM SECTION STYLES
 
+// START:: ALL TEAM STYLES
+.all_team {
+  padding: $paddingAmount 0;
+  background: url('../media/shapes/header-sape6.png'), url('../media/shapes/9.png');
+  background-size: 100%;
+  background-position: center;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .member_wraper {
+    @media ( max-width: 991px ) {
+      &:nth-child(odd) {
+        .img_col {
+          order: 1;
+        }
+
+        .text_col {
+          order: 2;
+        }
+      }
+    }
+
+    .img_wraper {
+      img {
+        width: 100%;
+        height: auto;
+        @include borderRadius(50%);
+      }
+
+      @media ( max-width: 991px ) {
+        @include flexCenterAlignment();
+        margin-bottom: 20px;
+        img {
+          width: 250px;
+          height: 250px;
+        }
+      }
+    }
+
+    .text_col {
+      @include flexStartAlignment();
+      align-items: flex-start;
+      flex-direction: column;
+
+      h4 {
+        text-align: center;
+        margin-block: 10px;
+        padding: 5px 30px;
+        color: $white;
+        background-image: linear-gradient( to right, $secondaryColor, $mainColor );
+        position: relative;
+        overflow: hidden;
+  
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: -30px;
+          border-top: 20px solid $white;
+          border-right: 20px solid $white;
+          border-bottom: 20px solid $white;
+          border-left: 20px solid $white;
+          transform: translateY(-50%) rotate(45deg);
+        }
+  
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          right: -30px;
+          border-top: 20px solid $white;
+          border-right: 20px solid $white;
+          border-bottom: 20px solid $white;
+          border-left: 20px solid $white;
+          transform: translateY(-50%) rotate(45deg);
+        }
+      }
+
+      h6 {
+        color: $secondaryColor;
+        text-align: start;
+        margin-bottom: 15px;
+      }
+
+      .member_text_wraper {
+        width: 100%;
+        @include textWraper();
+        text-align: start;
+        position: relative;
+
+        ul {
+          margin-top: 10px;
+          li {
+            padding-inline-start: 6px;
+            &::marker {
+              content: "\f005";
+              font-family: 'Font Awesome 5 Free';
+              font-weight: '900';
+              color: $secondaryColor;
+            }
+          }
+        }
+      }
+    }
+
+    &:nth-child(odd) {
+      .img_col {
+        order: 2;
+      }
+
+      .text_col {
+        @include flexEndAlignment();
+        align-items: flex-end;
+        flex-direction: column;
+        .member_text_wraper {
+          text-align: end;
+          ul {
+            @include flexEndAlignment();
+            align-items: flex-end;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: ALL TEAM STYLES
+
 // START:: OPERATION SECTION STYLES
 .operation_sec {
   padding: $paddingAmount 0;

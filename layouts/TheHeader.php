@@ -96,14 +96,6 @@
         <a href="Faq.php"> FAQs </a>
       </li>
 
-      <li> 
-        <a href="AllProducts.php"> Products </a>
-      </li>
-
-      <li> 
-        <a href="Quality.php"> Quality </a>
-      </li>
-
     </ul>
   </div>
   <!-- START:: NAV LINKS -->

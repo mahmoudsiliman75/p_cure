@@ -1326,6 +1326,256 @@ nav .menu_btn svg {
   background-color: #07669C;
 }
 
+.all_team {
+  padding: 30px 0;
+  background: url("../media/shapes/header-sape6.png"), url("../media/shapes/9.png");
+  background-size: 100%;
+  background-position: center;
+}
+
+.all_team .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_team .header_wraper h2 {
+  padding: 8px 15px;
+  position: relative;
+  color: #07669C;
+}
+
+.all_team .header_wraper h2::before, .all_team .header_wraper h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #03A88A;
+}
+
+.all_team .header_wraper h2::before {
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px 0 0 0;
+}
+
+.all_team .header_wraper h2::after {
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.all_team .header_wraper h2 span {
+  position: absolute;
+  display: bolck;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #03A88A;
+}
+
+.all_team .header_wraper h2 span:first-child {
+  left: 0;
+  bottom: 0;
+  border-right: none;
+  border-top: none;
+  border-radius: 0 0 0 5px;
+}
+
+.all_team .header_wraper h2 span:last-child {
+  right: 0;
+  bottom: 0;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+}
+
+@media (max-width: 991px) {
+  .all_team .member_wraper:nth-child(odd) .img_col {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .all_team .member_wraper:nth-child(odd) .text_col {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.all_team .member_wraper .img_wraper img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .all_team .member_wraper .img_wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+  .all_team .member_wraper .img_wraper img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.all_team .member_wraper .text_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.all_team .member_wraper .text_col h4 {
+  text-align: center;
+  margin-block: 10px;
+  padding: 5px 30px;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
+  background-image: linear-gradient(to right, #03A88A, #07669C);
+  position: relative;
+  overflow: hidden;
+}
+
+.all_team .member_wraper .text_col h4::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #fff;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid #fff;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+}
+
+.all_team .member_wraper .text_col h4::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #fff;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid #fff;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+}
+
+.all_team .member_wraper .text_col h6 {
+  color: #03A88A;
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.all_team .member_wraper .text_col .member_text_wraper {
+  width: 100%;
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: start;
+  position: relative;
+}
+
+.all_team .member_wraper .text_col .member_text_wraper ul {
+  margin-top: 10px;
+}
+
+.all_team .member_wraper .text_col .member_text_wraper ul li {
+  -webkit-padding-start: 6px;
+          padding-inline-start: 6px;
+}
+
+.all_team .member_wraper .text_col .member_text_wraper ul li::marker {
+  content: "\f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: '900';
+  color: #03A88A;
+}
+
+.all_team .member_wraper:nth-child(odd) .img_col {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.all_team .member_wraper:nth-child(odd) .text_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.all_team .member_wraper:nth-child(odd) .text_col .member_text_wraper {
+  text-align: end;
+}
+
+.all_team .member_wraper:nth-child(odd) .text_col .member_text_wraper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .operation_sec {
   padding: 30px 0;
   background-image: url("../media/shapes/header-sape6.png"), url("../media/shapes/9.png");
