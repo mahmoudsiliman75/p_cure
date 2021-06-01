@@ -1295,6 +1295,75 @@ nav {
 }
 // END:: ALL VIDEOS PAGE STYLES
 
+// START:: FAQS SECTION STYLES
+.faq_sec {
+  padding: $paddingAmount 0;
+  margin-top: 30px;
+  background: url('../media/shapes/row-bgimage-3.png') rgba(207, 207, 207, 0.2);
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $mainColor;
+        text-align: start;
+      }
+      .answer {
+        @include textWraper();
+        padding-inline-start: 25px;
+        text-align: start;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {    
+          padding: 0;              
+          h4 {
+            button {
+              padding: 15px;
+              border: none;
+              background-color: transparent;
+              text-decoration: none;
+              color: $mainColor;
+              background-color: $white;
+              @include flexStartAlignment();
+              svg {
+                margin-inline-end: 8px;
+                @include transitioning(0.4s);
+              }
+              &[aria-expanded='true'] {
+                color: $white;
+                background-image: linear-gradient(to right, $mainColor, $secondaryColor);
+                svg {
+                  color: $white;
+                  transform: rotate(90deg);
+                }
+              }
+            }
+          }
+        }
+
+        .card-body {
+          @include textWraper();
+          font-size: 16px;
+          padding-inline-start: 35px;
+          text-align: start;
+        }
+      }
+    }
+  }
+}
+// END:: FAQS SECTION STYLES
+
 // START:: NEWS SECCTION STYLES
 .articles_sec {
   padding: $paddingAmount 0;
