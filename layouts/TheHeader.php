@@ -65,6 +65,10 @@
       </li>
 
       <li> 
+        <a href="AboutUs.php"> About Us </a>
+      </li>
+
+      <li> 
         <a href="AllOperations.php"> Operations </a>
       </li>
 
@@ -86,9 +90,7 @@
 
 
 
-      <li> 
-        <a href="AboutUs.php"> About Us </a>
-      </li>
+
 
       <li> 
         <a href="Faq.php"> FAQs </a>
