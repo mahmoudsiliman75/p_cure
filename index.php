@@ -282,7 +282,7 @@
           </div>
 
           <div class="back_face">
-            <h4> Product Name 4 </h4>
+            <h4> Operation Name 4 </h4>
 
             <div class="text_wraper">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 

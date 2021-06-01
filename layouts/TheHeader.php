@@ -65,6 +65,10 @@
       </li>
 
       <li> 
+        <a href="AllOperations.php"> Operations </a>
+      </li>
+
+      <li> 
         <a href="AllVideos.php"> Videos </a>
       </li>
 
