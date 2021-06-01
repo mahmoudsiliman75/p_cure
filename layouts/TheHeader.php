@@ -84,18 +84,6 @@
         <a href="ContactUs.php"> Contact Us </a>
       </li>
 
-
-
-
-
-
-
-
-
-      <li> 
-        <a href="Faq.php"> FAQs </a>
-      </li>
-
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
