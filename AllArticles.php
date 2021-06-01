@@ -18,7 +18,9 @@
 <div class="all_articles">
   <div class="container">
     <div class="header_wraper">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> All News </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> 
+        All News 
+      </h2>
     </div>
 
     <div class="row justify-content-center wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">

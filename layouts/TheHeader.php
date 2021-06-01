@@ -76,6 +76,13 @@
         <a href="AllArticles.php"> Articles </a>
       </li>
 
+      <li> 
+        <a href="ContactUs.php"> Contact Us </a>
+      </li>
+
+
+
+
 
 
 
@@ -95,13 +102,6 @@
         <a href="Quality.php"> Quality </a>
       </li>
 
-      <li> 
-        <a href="Carrers.php"> Carrers </a>
-      </li>
-
-      <li> 
-        <a href="ContactUs.php"> Contact Us </a>
-      </li>
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
