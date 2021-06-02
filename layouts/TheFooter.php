@@ -18,15 +18,12 @@
         <div class="d-flex flex-column align-items-start justify-content-center p-3">
           <a href="index.php"> Home </a>
           <a href="AboutUs.php"> About Us </a>
-          <a href="Faq.php"> FAQs </a>
-          <a href="AllProducts.php"> Product </a>
-          <a href="Quality.php"> Quality </a>
+          <a href="AllOperations.php"> Operations </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-center p-3">
-          <a href="Media.php"> Media </a>
-          <a href="Carrers.php"> Carrers </a>
-          <a href="auth.php"> Login </a>  
+          <a href="AllVideos.php"> Videos </a>
+          <a href="AllArticles.php"> Aticles </a>
           <a href="ContactUs.php"> Contact Us </a>
         </div>
       </div>

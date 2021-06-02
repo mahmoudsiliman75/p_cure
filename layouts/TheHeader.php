@@ -83,7 +83,6 @@
       <li> 
         <a href="ContactUs.php"> Contact Us </a>
       </li>
-
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
@@ -124,19 +123,7 @@
     </li>
 
     <li> 
-      <a href="Faq.php"> FAQs </a>
-    </li>
-
-    <li> 
-      <a href="AllProducts.php"> Product </a>
-    </li>
-
-    <li> 
-      <a href="Quality.php"> Quality </a>
-    </li>
-
-    <li> 
-      <a href="Media.php"> Media </a>
+      <a href="AllOperations.php"> Operations </a>
     </li>
 
     <li> 
@@ -144,15 +131,11 @@
     </li>
 
     <li> 
-      <a href="Carrers.php"> Carrers </a>
+      <a href="AllArticles.php"> Articles </a>
     </li>
 
     <li> 
       <a href="ContactUs.php"> Contact Us </a>
-    </li>
-
-    <li> 
-      <a href="UserProfile.php"> Profile </a>
     </li>
   </ul>
 </div>
