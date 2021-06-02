@@ -14,6 +14,93 @@
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 
+<!-- START:: PRODUCT INFO SECTION -->
+<div class="operation_info wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-11 col-md-5 mb-3">
+        <div class="operation_img_wraper">
+          <div id="slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="assets/media/imgs/img1.jpg" />
+              </li>
+              <li>
+                <img src="assets/media/imgs/img2.jpg" />
+              </li>
+              <li>
+                <img src="assets/media/slider/slide1.jpg" />
+              </li>
+              <li>
+                <img src="assets/media/slider/slide2.jpg" />
+              </li>
+              <li>
+                <img src="assets/media/slider/slide3.jpg" />
+              </li>
+              <li>
+                <img src="assets/media/slider/slide4.jpg" />
+              </li>
+            </ul>
+          </div>
+
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img class="min_img" src="assets/media/imgs/img1.jpg" />
+              </li>
+              <li>
+                <img class="min_img" src="assets/media/imgs/img2.jpg" />
+              </li>
+              <li>
+                <img class="min_img" src="assets/media/slider/slide1.jpg" />
+              </li>
+              <li>
+                <img class="min_img" src="assets/media/slider/slide2.jpg" />
+              </li>
+              <li>
+                <img class="min_img" src="assets/media/slider/slide3.jpg" />
+              </li>
+              <li>
+                <img class="min_img" src="assets/media/slider/slide4.jpg" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-7">
+        <div class="row justify-content-center operation_info_wraper">
+          <div class="col-12 header_wraper">
+            <h3> Operation Name </h3>
+          </div>
+
+          <div class="col-12 operation_prief">
+            <div class="prief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Adipisci inventore reprehenderit optio minus aliquid. 
+              Porro suscipit amet ullam quos adipisci molestiae autem 
+              architecto voluptas quas! Dolores distinctio eligendi 
+              voluptatem sequi corporis saepe a dicta dolorem, veniam 
+              maxime officiis porro nam! Nemo, suscipit ab! Minima ad 
+              ipsam ipsa laudantium sit, tempora eaque reiciendis quasi, 
+              optio possimus quas! Culpa possimus, aperiam debitis cum 
+              laboriosam voluptates soluta vero et. Perferendis, vitae 
+              neque totam, sed ab fugiat soluta ducimus odio commodi 
+              animi atque labore. porro nam! Nemo, suscipit ab! Minima ad 
+              ipsam ipsa laudantium sit, tempora eaque reiciendis quasi, 
+              optio possimus quas! Culpa possimus, aperiam debitis cum 
+              laboriosam voluptates soluta vero et. Perferendis, vitae 
+              neque totam, sed ab fugiat soluta ducimus odio commodi 
+              animi atque labore.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: PRODUCT INFO SECTION -->
+
 <!-- START:: FAQS SECTION -->
 <div class="faq_sec">
   <div class="container">

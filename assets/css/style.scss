@@ -876,6 +876,40 @@ nav {
 }
 // END:: OPERATION SECTION STYLE
 
+// START:: PRODUCT INFO SECTION STYLES
+.operation_info {
+  padding: $paddingAmount 0;
+  .operation_img_wraper {
+    img {
+      width: 100%;
+      height: auto;
+      @include borderRadius($borderRadiusAmount);
+    }
+  }
+
+  .operation_info_wraper {
+    background: url('../media/shapes/9.png');
+    background-size: 100%;
+    background-position: center;
+
+    .header_wraper {
+      @include flexCenterAlignment();
+      h3 {
+        @include mainHeaderStyle();
+      }
+    }
+
+    .operation_prief {
+      margin-block: 15px;
+      .prief {
+        @include textWraper();
+        text-align: start;
+      }
+    }
+  }
+}
+// END:: PRODUCT INFO SECTION STYLES
+
 // START:: HOME HEIGHLIGHTS SECTION STYLES
 .home_heightlights {
   padding: $paddingAmount 0;
@@ -3973,113 +4007,7 @@ footer {
 }
 // END:: ALL BOOKS SECTION STYLES
 
-// START:: PRODUCT INFO SECTION STYLES
-.product_info {
-  padding: $paddingAmount 0;
-  .product_img_wraper {
-    img {
-      width: 100%;
-      height: auto;
-      @include borderRadius($borderRadiusAmount);
-    }
-  }
 
-  .product_info_wraper {
-    background: url('../media/shapes/9.png');
-    background-size: 100%;
-    background-position: center;
-
-    .header_wraper {
-      @include flexStartAlignment();
-      h3 {
-        @include mainHeaderStyle();
-        margin-inline-start: 75px;
-      }
-    }
-
-    .price_wraper {
-      @include flexStartAlignment();
-      span {
-        font-size: 1.07rem;
-        &:first-child {
-          margin-inline-start: 75px;
-          color: $darkGrey;
-          font-weight: 700;
-        }
-
-        &.old_price {
-          margin-inline-start: 8px;
-          color: $midRed;
-          text-decoration: line-through;
-        }
-
-        &.new_price {
-          margin-inline-start: 8px;
-          color: $deepBlue;
-        }
-      }
-    }
-
-    .product_prief {
-      margin-block: 15px;
-      .prief {
-        padding-inline-start: 75px;
-        padding-inline-end: 15px;
-        font-size: 18px;
-        color: $lightGrey;
-        line-height: 1.6;
-        text-align: start;
-        word-break: break-word;
-      }
-    }
-
-    .brand_wraper {
-      @include flexCenterAlignment();
-
-      .icon_wraper {
-        margin-inline-start: 75px;
-        img {
-          min-width: 120px;
-          max-width: 120px;
-        }
-      }
-    }
-
-    .cat_wraper {
-      @include flexCenterAlignment();
-
-      .icon_wraper {
-        margin-inline-start: 75px;
-        img {
-          min-width: 50px;
-          max-width: 50px;
-          min-height: 65px;
-          max-height: 65px;
-        }
-      }
-
-      .cat_name {
-        font-size: 1.5rem;
-        margin-inline-start: 8px;
-        color: $deepBlue;
-      }
-    }
-
-    .add_to_cart_btn,
-    .cart_btn,
-    .continue_shopping_btn {
-      button,
-      a {
-        @include btnHoverEffect();
-        width: 100%;
-        font-size: 1.05rem;
-        display: inline-block;
-        text-align: center;
-      }
-    }
-  }
-}
-// END:: PRODUCT INFO SECTION STYLES
 
 
 
