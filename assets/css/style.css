@@ -2384,43 +2384,14 @@ nav .menu_btn svg {
   border-radius: 10px;
 }
 
-.videos_sec .owl-carousel .item h5 {
-  text-align: center;
-  margin-block: 10px;
-  padding: 5px 30px;
-  color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
-  background-image: linear-gradient(to right, #03A88A, #07669C);
-  position: relative;
-  overflow: hidden;
-}
-
-.videos_sec .owl-carousel .item h5::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
-}
-
-.videos_sec .owl-carousel .item h5::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
+.videos_sec .owl-carousel .item h4 {
+  margin-top: 10px;
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#07669C), to(#03A88A));
+  background: linear-gradient(to right, #07669C, #03A88A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .videos_sec .owl-carousel .owl-nav {
@@ -2659,42 +2630,13 @@ nav .menu_btn svg {
 }
 
 .all_videos .video_wraper h4 {
-  text-align: center;
-  margin-block: 10px;
-  padding: 5px 30px;
-  color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
-  background-image: linear-gradient(to right, #03A88A, #07669C);
-  position: relative;
-  overflow: hidden;
-}
-
-.all_videos .video_wraper h4::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
-}
-
-.all_videos .video_wraper h4::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
+  margin-top: 10px;
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#07669C), to(#03A88A));
+  background: linear-gradient(to right, #07669C, #03A88A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .all_videos .btn_box {
@@ -2972,8 +2914,8 @@ nav .menu_btn svg {
 
 .articles_sec a .article_card_wraper {
   background-color: #fff;
-  min-height: 490px;
-  max-height: 490px;
+  min-height: 450px;
+  max-height: 450px;
   text-align: center;
   position: relative;
   border-radius: 10px;
@@ -3074,7 +3016,7 @@ nav .menu_btn svg {
 }
 
 .articles_sec a .article_card_wraper .card_title_wraper {
-  margin-top: 25px;
+  margin-top: 10px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3092,48 +3034,18 @@ nav .menu_btn svg {
 }
 
 .articles_sec a .article_card_wraper .card_title_wraper h4 {
-  text-align: center;
-  margin-block: 10px;
-  padding: 5px 30px;
-  color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
-  background-image: linear-gradient(to right, #03A88A, #07669C);
-  position: relative;
-  overflow: hidden;
-}
-
-.articles_sec a .article_card_wraper .card_title_wraper h4::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
-}
-
-.articles_sec a .article_card_wraper .card_title_wraper h4::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#07669C), to(#03A88A));
+  background: linear-gradient(to right, #07669C, #03A88A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .articles_sec a .article_card_wraper .card_title_wraper h6 {
   position: absolute;
-  right: 15px;
-  top: -38px;
+  left: 15px;
+  top: -245px;
   z-index: 11;
   color: #fff;
   padding: 5px;
@@ -3290,8 +3202,8 @@ nav .menu_btn svg {
 
 .all_articles a .article_card_wraper {
   background-color: #fff;
-  min-height: 490px;
-  max-height: 490px;
+  min-height: 450px;
+  max-height: 450px;
   text-align: center;
   position: relative;
   border-radius: 10px;
@@ -3392,7 +3304,7 @@ nav .menu_btn svg {
 }
 
 .all_articles a .article_card_wraper .card_title_wraper {
-  margin-top: 25px;
+  margin-top: 10px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3410,48 +3322,18 @@ nav .menu_btn svg {
 }
 
 .all_articles a .article_card_wraper .card_title_wraper h4 {
-  text-align: center;
-  margin-block: 10px;
-  padding: 5px 30px;
-  color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
-  background-image: linear-gradient(to right, #03A88A, #07669C);
-  position: relative;
-  overflow: hidden;
-}
-
-.all_articles a .article_card_wraper .card_title_wraper h4::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
-}
-
-.all_articles a .article_card_wraper .card_title_wraper h4::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#07669C), to(#03A88A));
+  background: linear-gradient(to right, #07669C, #03A88A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .all_articles a .article_card_wraper .card_title_wraper h6 {
   position: absolute;
-  right: 15px;
-  top: -38px;
+  left: 15px;
+  top: -245px;
   z-index: 11;
   color: #fff;
   padding: 5px;
@@ -3628,7 +3510,16 @@ nav .menu_btn svg {
           flex-direction: column;
 }
 
-.article_details_sec .article_header_wraper h3,
+.article_details_sec .article_header_wraper h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#07669C), to(#03A88A));
+  background: linear-gradient(to right, #07669C, #03A88A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .article_details_sec .article_header_wraper h5 {
   text-align: center;
   margin-block: 10px;
@@ -3640,7 +3531,6 @@ nav .menu_btn svg {
   overflow: hidden;
 }
 
-.article_details_sec .article_header_wraper h3::before,
 .article_details_sec .article_header_wraper h5::before {
   content: '';
   display: block;
@@ -3655,7 +3545,6 @@ nav .menu_btn svg {
           transform: translateY(-50%) rotate(45deg);
 }
 
-.article_details_sec .article_header_wraper h3::after,
 .article_details_sec .article_header_wraper h5::after {
   content: '';
   display: block;
@@ -3829,8 +3718,8 @@ nav .menu_btn svg {
 
 .related_news_slider .owl-carousel .item a .article_card_wraper {
   background-color: #fff;
-  min-height: 490px;
-  max-height: 490px;
+  min-height: 450px;
+  max-height: 450px;
   text-align: center;
   position: relative;
   border-radius: 10px;
@@ -3931,7 +3820,7 @@ nav .menu_btn svg {
 }
 
 .related_news_slider .owl-carousel .item a .article_card_wraper .card_title_wraper {
-  margin-top: 25px;
+  margin-top: 10px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3949,48 +3838,18 @@ nav .menu_btn svg {
 }
 
 .related_news_slider .owl-carousel .item a .article_card_wraper .card_title_wraper h4 {
-  text-align: center;
-  margin-block: 10px;
-  padding: 5px 30px;
-  color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#03A88A), to(#07669C));
-  background-image: linear-gradient(to right, #03A88A, #07669C);
-  position: relative;
-  overflow: hidden;
-}
-
-.related_news_slider .owl-carousel .item a .article_card_wraper .card_title_wraper h4::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
-}
-
-.related_news_slider .owl-carousel .item a .article_card_wraper .card_title_wraper h4::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: -30px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
-  border-left: 20px solid #fff;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg);
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#07669C), to(#03A88A));
+  background: linear-gradient(to right, #07669C, #03A88A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .related_news_slider .owl-carousel .item a .article_card_wraper .card_title_wraper h6 {
   position: absolute;
-  right: 15px;
-  top: -38px;
+  left: 15px;
+  top: -245px;
   z-index: 11;
   color: #fff;
   padding: 5px;

@@ -218,35 +218,35 @@
           <div class="iframe_wraper">
             <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <h5> Video Title </h5>
+          <h4> Video Title </h4>
         </div>
 
         <div class="item text-center">
           <div class="iframe_wraper">
             <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <h5> Video Title </h5>
+          <h4> Video Title </h4>
         </div>
 
         <div class="item text-center">
           <div class="iframe_wraper">
             <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <h5> Video Title </h5>
+          <h4> Video Title </h4>
         </div>
 
         <div class="item text-center">
           <div class="iframe_wraper">
             <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <h5> Video Title </h5>
+          <h4> Video Title </h4>
         </div>
 
         <div class="item text-center">
           <div class="iframe_wraper">
             <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <h5> Video Title </h5>
+          <h4> Video Title </h4>
         </div>
 
       </div>

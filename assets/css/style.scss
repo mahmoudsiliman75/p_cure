@@ -1162,40 +1162,15 @@ nav {
           @include borderRadius($borderRadiusAmount);
         }
       }
-      h5 {
-        text-align: center;
-        margin-block: 10px;
-        padding: 5px 30px;
-        color: $white;
-        background-image: linear-gradient( to right, $secondaryColor, $mainColor );
-        position: relative;
-        overflow: hidden;
-
-        &::before {
-          content: '';
-          display: block;
-          position: absolute;
-          top: 50%;
-          left: -30px;
-          border-top: 20px solid $white;
-          border-right: 20px solid $white;
-          border-bottom: 20px solid $white;
-          border-left: 20px solid $white;
-          transform: translateY(-50%) rotate(45deg);
-        }
-
-        &::after {
-          content: '';
-          display: block;
-          position: absolute;
-          top: 50%;
-          right: -30px;
-          border-top: 20px solid $white;
-          border-right: 20px solid $white;
-          border-bottom: 20px solid $white;
-          border-left: 20px solid $white;
-          transform: translateY(-50%) rotate(45deg);
-        }
+      h4 {
+        margin-top: 10px;
+        font-weight: 600;
+        background: linear-gradient(to right, $mainColor, $secondaryColor);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
     }
 
@@ -1290,39 +1265,14 @@ nav {
       border-radius: $borderRadiusAmount;
     }
     h4 {
-      text-align: center;
-      margin-block: 10px;
-      padding: 5px 30px;
-      color: $white;
-      background-image: linear-gradient( to right, $secondaryColor, $mainColor );
-      position: relative;
-      overflow: hidden;
-
-      &::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: -30px;
-        border-top: 20px solid $white;
-        border-right: 20px solid $white;
-        border-bottom: 20px solid $white;
-        border-left: 20px solid $white;
-        transform: translateY(-50%) rotate(45deg);
-      }
-
-      &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 50%;
-        right: -30px;
-        border-top: 20px solid $white;
-        border-right: 20px solid $white;
-        border-bottom: 20px solid $white;
-        border-left: 20px solid $white;
-        transform: translateY(-50%) rotate(45deg);
-      }
+      margin-top: 10px;
+      font-weight: 600;
+      background: linear-gradient(to right, $mainColor, $secondaryColor);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -o-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -1418,8 +1368,8 @@ nav {
     text-decoration: none;
     .article_card_wraper {
       background-color: $white;
-      min-height: 490px;
-      max-height: 490px;
+      min-height: 450px;
+      max-height: 450px;
       text-align: center;
       position: relative;
       @include borderRadius($borderRadiusAmount);
@@ -1506,50 +1456,24 @@ nav {
       }
   
       .card_title_wraper {
-        margin-top: 25px;
+        margin-top: 10px;
         position: relative;
         @include flexCenterAlignment();
         flex-direction: column;
         h4 {
-          text-align: center;
-          margin-block: 10px;
-          padding: 5px 30px;
-          color: $white;
-          background-image: linear-gradient( to right, $secondaryColor, $mainColor );
-          position: relative;
-          overflow: hidden;
-
-          &::before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: -30px;
-            border-top: 20px solid $white;
-            border-right: 20px solid $white;
-            border-bottom: 20px solid $white;
-            border-left: 20px solid $white;
-            transform: translateY(-50%) rotate(45deg);
-          }
-
-          &::after {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            right: -30px;
-            border-top: 20px solid $white;
-            border-right: 20px solid $white;
-            border-bottom: 20px solid $white;
-            border-left: 20px solid $white;
-            transform: translateY(-50%) rotate(45deg);
-          }
+          font-weight: 600;
+          background: linear-gradient(to right, $mainColor, $secondaryColor);
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -o-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
 
         h6 {
           position: absolute;
-          right: 15px;
-          top: -38px;
+          left: 15px;
+          top: -245px;
           z-index: 11;
           color: $white;
           padding: 5px;
@@ -1593,8 +1517,8 @@ nav {
     text-decoration: none;
     .article_card_wraper {
       background-color: $white;
-      min-height: 490px;
-      max-height: 490px;
+      min-height: 450px;
+      max-height: 450px;
       text-align: center;
       position: relative;
       @include borderRadius($borderRadiusAmount);
@@ -1681,50 +1605,24 @@ nav {
       }
   
       .card_title_wraper {
-        margin-top: 25px;
+        margin-top: 10px;
         position: relative;
         @include flexCenterAlignment();
         flex-direction: column;
         h4 {
-          text-align: center;
-          margin-block: 10px;
-          padding: 5px 30px;
-          color: $white;
-          background-image: linear-gradient( to right, $secondaryColor, $mainColor );
-          position: relative;
-          overflow: hidden;
-
-          &::before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: -30px;
-            border-top: 20px solid $white;
-            border-right: 20px solid $white;
-            border-bottom: 20px solid $white;
-            border-left: 20px solid $white;
-            transform: translateY(-50%) rotate(45deg);
-          }
-
-          &::after {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            right: -30px;
-            border-top: 20px solid $white;
-            border-right: 20px solid $white;
-            border-bottom: 20px solid $white;
-            border-left: 20px solid $white;
-            transform: translateY(-50%) rotate(45deg);
-          }
+          font-weight: 600;
+          background: linear-gradient(to right, $mainColor, $secondaryColor);
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -o-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
 
         h6 {
           position: absolute;
-          right: 15px;
-          top: -38px;
+          left: 15px;
+          top: -245px;
           z-index: 11;
           color: $white;
           padding: 5px;
@@ -1777,7 +1675,17 @@ nav {
   .article_header_wraper {
     @include flexCenterAlignment();
     flex-direction: column;
-    h3,
+    h3 {
+      margin-top: 10px;
+      font-weight: 600;
+      background: linear-gradient(to right, $mainColor, $secondaryColor);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -o-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
     h5 {
       text-align: center;
       margin-block: 10px;
@@ -1860,8 +1768,8 @@ nav {
         text-decoration: none;
         .article_card_wraper {
           background-color: $white;
-          min-height: 490px;
-          max-height: 490px;
+          min-height: 450px;
+          max-height: 450px;
           text-align: center;
           position: relative;
           @include borderRadius($borderRadiusAmount);
@@ -1948,50 +1856,24 @@ nav {
           }
       
           .card_title_wraper {
-            margin-top: 25px;
+            margin-top: 10px;
             position: relative;
             @include flexCenterAlignment();
             flex-direction: column;
             h4 {
-              text-align: center;
-              margin-block: 10px;
-              padding: 5px 30px;
-              color: $white;
-              background-image: linear-gradient( to right, $secondaryColor, $mainColor );
-              position: relative;
-              overflow: hidden;
-    
-              &::before {
-                content: '';
-                display: block;
-                position: absolute;
-                top: 50%;
-                left: -30px;
-                border-top: 20px solid $white;
-                border-right: 20px solid $white;
-                border-bottom: 20px solid $white;
-                border-left: 20px solid $white;
-                transform: translateY(-50%) rotate(45deg);
-              }
-    
-              &::after {
-                content: '';
-                display: block;
-                position: absolute;
-                top: 50%;
-                right: -30px;
-                border-top: 20px solid $white;
-                border-right: 20px solid $white;
-                border-bottom: 20px solid $white;
-                border-left: 20px solid $white;
-                transform: translateY(-50%) rotate(45deg);
-              }
+              font-weight: 600;
+              background: linear-gradient(to right, $mainColor, $secondaryColor);
+              -webkit-background-clip: text;
+              -moz-background-clip: text;
+              -o-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
             }
     
             h6 {
               position: absolute;
-              right: 15px;
-              top: -38px;
+              left: 15px;
+              top: -245px;
               z-index: 11;
               color: $white;
               padding: 5px;

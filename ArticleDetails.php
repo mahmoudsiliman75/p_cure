@@ -20,7 +20,7 @@
     <div class="container">
       <div class="row justify-content-center p-2 overflow-hidden">
         <div class="col-12 article_header_wraper">
-          <h3> Article Title </h3>
+          <h3> Article Title Will Go Here </h3>
           <h5> 1, May, 2021 </h5>
         </div>
 
