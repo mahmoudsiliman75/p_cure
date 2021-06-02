@@ -672,7 +672,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
-  font-size: 18px;
+  text-align: start;
 }
 
 .about_us_sec .row .about_us_text_wraper .btn_wraper {
@@ -838,6 +838,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  text-align: start;
 }
 
 .about_info .about_info_img_wraper img {
@@ -1013,6 +1014,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  text-align: start;
 }
 
 .certificats .certificate_img_wraper {

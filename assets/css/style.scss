@@ -385,7 +385,7 @@ nav {
   
       .text_wraper {
         @include textWraper();
-        font-size: 18px;
+        text-align: start;
       }
   
       .btn_wraper {
@@ -431,6 +431,7 @@ nav {
 
   .about_text_wraper {
     @include textWraper();
+    text-align: start;
   }
 
   .about_info_img_wraper {
@@ -474,6 +475,7 @@ nav {
 
   .certificates_text_wraper {
     @include textWraper();
+    text-align: start
   }
 
   .certificate_img_wraper {
