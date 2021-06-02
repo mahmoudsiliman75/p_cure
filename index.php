@@ -47,9 +47,9 @@
 
 <!-- START::ABOUT US SECTION -->
 <div class="about_us_sec">
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-2 p-md-0">
     <div class="row justify-content-center overflow-hidden">
-      <div class="col-12 col-md-5 p-0 my-2 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+      <div class="col-11 col-md-5 p-0 my-2 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_img_wraper">
           <img src="assets/media/imgs/img2.jpg" alt="about us iamge">
         </div>

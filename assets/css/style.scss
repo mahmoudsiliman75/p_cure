@@ -400,6 +400,10 @@ nav {
     @media ( max-width: 767px ) {
       .about_us_img_wraper {
         box-shadow: none;
+        @include borderRadius(10px);
+        img {
+          @include borderRadius(10px);
+        }
       }
 
       .about_us_text_wraper {
@@ -410,7 +414,7 @@ nav {
         }
 
         .text_wraper {
-          text-align: center;
+          text-align: start;
         }
       }
     }
@@ -1760,7 +1764,7 @@ nav {
     }
   }
 
-  .latest_article_img_wraper {
+  .article_img_wraper {
     position: relative;
 
     img {
@@ -1811,10 +1815,18 @@ nav {
     }
   }
 
-  .latest_article_text_wraper {
+  .article_text_wraper {
     .text_wraper {
       @include textWraper();
       text-align: center;
+    }
+  }
+
+  @media ( max-width: 767px ) {
+    .article_text_wraper {
+      .text_wraper {
+        text-align: start;
+      }
     }
   }
 
@@ -2180,6 +2192,17 @@ nav {
       @include borderRadius(7px);
       &:hover {
         transform: scale(1.1);
+      }
+    }
+  }
+
+  @media ( max-width: 767px ) {
+    .social {
+      img {
+        min-width: 45px;
+        max-width: 45px;
+        min-height: 45px;
+        max-height: 45px;
       }
     }
   }

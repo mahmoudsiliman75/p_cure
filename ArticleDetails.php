@@ -25,13 +25,13 @@
         </div>
 
         <div class="col-12 col-md-6 my-4 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-          <div class="latest_article_img_wraper">
+          <div class="article_img_wraper">
             <img src="assets/media/pic5.jpg" alt="about us iamge">
           </div>
         </div>
 
         <div class="col-12  my-2 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-          <div class="latest_article_text_wraper">
+          <div class="article_text_wraper">
             <div class="text_wraper">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
               maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
