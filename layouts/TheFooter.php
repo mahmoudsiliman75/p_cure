@@ -28,7 +28,7 @@
         </div>
       </div>
 
-      <div class="get_in_touch col-6 col-md-3 p-0 px-md-2"> 
+      <div class="get_in_touch col-10 col-md-3 p-0 px-md-2"> 
         <h5 class="my-3 d-flex"> Contact Us </h5>
 
         <ul class="list-unstyled p-0">
