@@ -28,14 +28,16 @@
         <div class="operation_card_wraper">
           <div class="front_face">
             <img src="assets/media/imgs/img3.jpg" alt="">
+            <div class="overlay">
+              <h4> Operation Name 1 </h4>
+            </div>
           </div>
 
           <div class="back_face">
-            <h4> Operation Name 1 </h4>
-
             <div class="text_wraper">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Voluptate, vero laudantium laborum cumque quidem. 
+              Lorem ipsum dolor sit amet.
             </div>
 
             <div class="btn_wraper">
@@ -48,15 +50,17 @@
       <div class="col-10 col-lg-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
         <div class="operation_card_wraper">
           <div class="front_face">
-          <img src="assets/media/imgs/img4.jpg" alt="">
+            <img src="assets/media/imgs/img4.jpg" alt="">
+            <div class="overlay">
+              <h4> Operation Name 2 </h4>
+            </div>
           </div>
 
           <div class="back_face">
-            <h4> Operation Name 2 </h4>
-
             <div class="text_wraper">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Voluptate, vero laudantium laborum cumque quidem. 
+              Lorem ipsum dolor sit amet.
             </div>
 
             <div class="btn_wraper">
@@ -70,14 +74,16 @@
         <div class="operation_card_wraper">
           <div class="front_face">
             <img src="assets/media/imgs/img3.jpg" alt="">
+            <div class="overlay">
+              <h4> Operation Name 3 </h4>
+            </div>
           </div>
 
           <div class="back_face">
-            <h4> Operation Name 3 </h4>
-
             <div class="text_wraper">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Voluptate, vero laudantium laborum cumque quidem. 
+              Lorem ipsum dolor sit amet.
             </div>
 
             <div class="btn_wraper">
@@ -91,14 +97,16 @@
         <div class="operation_card_wraper">
           <div class="front_face">
             <img src="assets/media/imgs/img4.jpg" alt="">
+            <div class="overlay">
+              <h4> Operation Name 4 </h4>
+            </div>
           </div>
 
           <div class="back_face">
-            <h4> Operation Name 4 </h4>
-
             <div class="text_wraper">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Voluptate, vero laudantium laborum cumque quidem. 
+              Lorem ipsum dolor sit amet.
             </div>
 
             <div class="btn_wraper">

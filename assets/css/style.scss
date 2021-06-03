@@ -828,6 +828,21 @@ nav {
         height: 100%;
         @include borderRadius(5px);
       }
+
+      .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        @include borderRadius(5px);
+        @include flexCenterAlignment();
+
+        h4 {
+          color: $white;
+        }
+      }
     }
     .back_face {
       transform: rotateY(180deg);
