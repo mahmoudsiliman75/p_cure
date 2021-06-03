@@ -327,12 +327,18 @@ nav {
   }
 
   @media ( max-width: 767px ) {
+    .curve_wraper {
+      .curve {
+        height: 45px;
+      }
+    }
+
     .carousel-inner {
-      max-height: 450px;
+      max-height: 350px;
       img {
         width: 100%;
-        min-height: 450px;
-        max-height: 450px;
+        min-height: 350px;
+        max-height: 350px;
       }
     }
   }

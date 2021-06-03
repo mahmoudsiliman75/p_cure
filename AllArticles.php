@@ -24,7 +24,7 @@
     </div>
 
     <div class="row justify-content-center wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <div class="col-12 col-md-8 col-md-4 my-3">
+      <div class="col-12 col-md-8 col-lg-4 my-3">
         <a href="ArticleDetails.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
@@ -53,7 +53,7 @@
         </a>
       </div>
 
-      <div class="col-12 col-md-8 col-md-4 my-3">
+      <div class="col-12 col-md-8 col-lg-4 my-3">
         <a href="ArticleDetails.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
@@ -69,7 +69,7 @@
             </div>
 
             <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
+              <h4> Article Title 2 </h4>
               <h6> 1, May, 2021 </h6>
             </div>
 
@@ -82,7 +82,7 @@
         </a>
       </div>
 
-      <div class="col-12 col-md-8 col-md-4 my-3">
+      <div class="col-12 col-md-8 col-lg-4 my-3">
         <a href="ArticleDetails.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
@@ -98,7 +98,7 @@
             </div>
 
             <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
+              <h4> Article Title 3 </h4>
               <h6> 1, May, 2021 </h6>
             </div>
 
@@ -111,7 +111,7 @@
         </a>
       </div>
 
-      <div class="col-12 col-md-8 col-md-4 my-3">
+      <div class="col-12 col-md-8 col-lg-4 my-3">
         <a href="ArticleDetails.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
@@ -127,7 +127,7 @@
             </div>
 
             <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
+              <h4> Article Title 3 </h4>
               <h6> 1, May, 2021 </h6>
             </div>
 
@@ -140,7 +140,7 @@
         </a>
       </div>
 
-      <div class="col-12 col-md-8 col-md-4 my-3">
+      <div class="col-12 col-md-8 col-lg-4 my-3">
         <a href="ArticleDetails.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
@@ -156,7 +156,7 @@
             </div>
 
             <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
+              <h4> Article Title 4 </h4>
               <h6> 1, May, 2021 </h6>
             </div>
 
@@ -169,7 +169,7 @@
         </a>
       </div>
 
-      <div class="col-12 col-md-8 col-md-4 my-3">
+      <div class="col-12 col-md-8 col-lg-4 my-3">
         <a href="ArticleDetails.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
@@ -185,7 +185,7 @@
             </div>
 
             <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
+              <h4> Article Title 5 </h4>
               <h6> 1, May, 2021 </h6>
             </div>
 
