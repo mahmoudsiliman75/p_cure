@@ -2936,6 +2936,7 @@ nav .menu_btn svg {
 }
 
 .articles_sec a .article_card_wraper {
+  overflow: hidden;
   background-color: #fff;
   min-height: 450px;
   max-height: 450px;
@@ -3017,7 +3018,7 @@ nav .menu_btn svg {
 
 .articles_sec a .article_card_wraper .img_wraper .card_curve {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -3224,6 +3225,7 @@ nav .menu_btn svg {
 }
 
 .all_articles a .article_card_wraper {
+  overflow: hidden;
   background-color: #fff;
   min-height: 450px;
   max-height: 450px;
@@ -3305,7 +3307,7 @@ nav .menu_btn svg {
 
 .all_articles a .article_card_wraper .img_wraper .card_curve {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
   overflow: hidden;

@@ -631,7 +631,7 @@
       </div>
   
       <div class="row justify-content-center wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s">
-        <div class="col-10 col-lg-4 my-3">
+        <div class="col-12 col-md-8 col-lg-4 my-3">
           <a href="ArticleDetails.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
@@ -660,7 +660,7 @@
           </a>
         </div>
   
-        <div class="col-10 col-lg-4 my-3">
+        <div class="col-12 col-md-8 col-lg-4 my-3">
           <a href="ArticleDetails.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
@@ -689,7 +689,7 @@
           </a>
         </div>
   
-        <div class="col-10 col-lg-4 my-3">
+        <div class="col-12 col-md-8 col-lg-4 my-3">
           <a href="ArticleDetails.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
@@ -718,7 +718,7 @@
           </a>
         </div>
   
-        <div class="col-10 col-lg-4 my-3">
+        <div class="col-12 col-md-8 col-lg-4 my-3">
           <a href="ArticleDetails.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
@@ -747,7 +747,7 @@
           </a>
         </div>
   
-        <div class="col-10 col-lg-4 my-3">
+        <div class="col-12 col-md-8 col-lg-4 my-3">
           <a href="ArticleDetails.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
@@ -776,7 +776,7 @@
           </a>
         </div>
   
-        <div class="col-10 col-lg-4 my-3">
+        <div class="col-12 col-md-8 col-lg-4 my-3">
           <a href="ArticleDetails.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
