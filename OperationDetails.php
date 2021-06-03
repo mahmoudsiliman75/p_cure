@@ -4,7 +4,7 @@
 
 <!-- START:: HEDAER IMAGE SECTION -->
 <div class="header_img_wraper">
-  <img src="assets/media/pic5.jpg" alt="Intro Img" class="intro_img">
+  <img src="assets/media/slider/slide3.jpg" alt="Intro Img" class="intro_img">
 
   <!-- START:: SECTION SVG -->
   <div class="lower_svg_wraper">

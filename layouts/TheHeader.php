@@ -142,7 +142,7 @@
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRELOADER -->
-<div class="pre_loader">
+<!-- <div class="pre_loader">
   <img src="assets/media/logo.png">
   <div class="spinner">
     <div class="sk-chase-dot"></div>
@@ -152,5 +152,5 @@
     <div class="sk-chase-dot"></div>
     <div class="sk-chase-dot"></div>
   </div>
-</div>
+</div> -->
 <!-- END:: PRELOADER -->
