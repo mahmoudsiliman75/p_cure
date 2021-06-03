@@ -754,13 +754,15 @@ nav {
         position: relative;
 
         ul {
+          list-style: none;
           margin-top: 10px;
+          padding-inline: 0;
+          margin-inline: 0;
           li {
             padding-inline-start: 6px;
-            &::marker {
-              content: "\f005";
-              font-family: 'Font Awesome 5 Free';
-              font-weight: '900';
+            @include flexStartAlignment();
+            svg {
+              margin-inline-end: 8px;
               color: $secondaryColor;
             }
           }
@@ -783,6 +785,15 @@ nav {
             @include flexEndAlignment();
             align-items: flex-end;
             flex-direction: column;
+            li {
+              padding-inline-start: 6px;
+              @include flexStartAlignment();
+              flex-direction: row-reverse;
+              svg {
+                margin-inline-start: 8px;
+                color: $secondaryColor;
+              }
+            }
           }
         }
       }

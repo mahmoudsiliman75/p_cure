@@ -42,9 +42,9 @@
           Quo error necessitatibus sapiente officia eius quasi nemo 
           repellendus? Iure, quasi obcaecati.
           <ul>
-            <li> Achivement 1 </li>
-            <li> Achivement 2 </li>
-            <li> Achivement 3 </li>
+            <li> <i class="far fa-star"></i> Achivement 1 </li>
+            <li> <i class="far fa-star"></i> Achivement 2 </li>
+            <li> <i class="far fa-star"></i> Achivement 3 </li>
           </ul>
         </div>
       </div>
@@ -69,9 +69,9 @@
           Quo error necessitatibus sapiente officia eius quasi nemo 
           repellendus? Iure, quasi obcaecati.
           <ul>
-            <li> Achivement 1 </li>
-            <li> Achivement 2 </li>
-            <li> Achivement 3 </li>
+            <li> <i class="far fa-star"></i> Achivement 1 </li>
+            <li> <i class="far fa-star"></i> Achivement 2 </li>
+            <li> <i class="far fa-star"></i> Achivement 3 </li>
           </ul>
         </div>
       </div>
@@ -96,9 +96,9 @@
           Quo error necessitatibus sapiente officia eius quasi nemo 
           repellendus? Iure, quasi obcaecati.
           <ul>
-            <li> Achivement 1 </li>
-            <li> Achivement 2 </li>
-            <li> Achivement 3 </li>
+            <li> <i class="far fa-star"></i> Achivement 1 </li>
+            <li> <i class="far fa-star"></i> Achivement 2 </li>
+            <li> <i class="far fa-star"></i> Achivement 3 </li>
           </ul>
         </div>
       </div>
